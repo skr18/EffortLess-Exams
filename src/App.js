@@ -4,6 +4,7 @@ import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 import First from './First';
 import Second from './Second';
+import Third from './Third';
 import About from './About';
 
 import Sem1 from './Sem1';
@@ -46,11 +47,43 @@ import Instrumentation from './Sem3QA/Instrumentation';
 
 
 import Sem4 from './Sem4';
+
 import Cse4th from './Cse4th';
 import Cst4th from './Cst4th';
+import Math4cs from './Sem4QA/cs/Math'
+import Economics from './Sem4QA/cs/Economics';
+import Daa from './Sem4QA/cs/Daa';
+import Dbms from './Sem4QA/cs/Dbms';
+import Ai from './Sem4QA/cs/Ai';
+import Os from './Sem4QA/cs/Os';
+import Ajp from './Sem4QA/cs/Ajp';
+
 import Ece4th from './Ece4th';
 import Eee4th from './Eee4th';
 import Eie4th from './Eie4th';
+
+
+
+import Sem5 from './Sem5';
+import Cse5th from './Cse5th';
+import Cst5th from './Cst5th';
+import Ece5th from './Ece5th';
+import Eee5th from './Eee5th';
+import Eie5th from './Eie5th';
+
+
+import Sem6 from './Sem6';
+import Cse6th from './Cse6th';
+import Cst6th from './Cst6th';
+import Cn from './Sem5QA/Cn'
+import Flat from './Sem5QA/Flat'
+import Dmdw from './Sem5QA/Dmdw'
+import Mc from './Sem5QA/Mc'
+import Ml from './Sem5QA/Ml'
+import Uhvpe from './Sem5QA/Uhvpe'
+import Ece6th from './Ece6th';
+import Eee6th from './Eee6th';
+import Eie6th from './Eie6th';
 function App() {
 
   return (
@@ -104,11 +137,33 @@ function App() {
 
       <Route path="/sem4" element={<Sem4/>} />
           <Route path="/cse4th" element={<Cse4th/>} />
+              <Route path="/math4cs" element={<Math4cs/>} />
+              <Route path="/eco" element={<Economics/>} />
+              <Route path="/daa" element={<Daa/>} />
+              <Route path="/dbms" element={<Dbms/>} />
+              <Route path="/os" element={<Os/>} />
+              <Route path="/ai" element={<Ai/>} />
+              <Route path="/ajp" element={<Ajp/>} />
+          
           <Route path="/cst4th" element={<Cst4th/>} />
           <Route path="/ece4th" element={<Ece4th/>} />
           <Route path="/eee4th" element={<Eee4th/>} />
           <Route path="/eie4th" element={<Eie4th/>} />
       
+      <Route path="/third" element={<Third/>} />
+          <Route path="/sem5" element={<Sem5/>} />
+             <Route path="/cse5th" element={<Cse5th/>} />
+             <Route path="/cst5th" element={<Cst5th/>} />
+             <Route path="/ece5th" element={<Ece5th/>} />
+             <Route path="/eee5th" element={<Eee5th/>} />
+             <Route path="/eie5th" element={<Eie5th/>} />
+          
+          <Route path="/sem6" element={<Sem6/>} />
+             <Route path="/cse6th" element={<Cse6th/>} />
+             <Route path="/cst6th" element={<Cst6th/>} />
+             <Route path="/ece6th" element={<Ece6th/>} />
+             <Route path="/eee6th" element={<Eee6th/>} />
+             <Route path="/eie6th" element={<Eie6th/>} />
       </Routes>
     </Router>
   );

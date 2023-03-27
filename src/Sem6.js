@@ -1,5 +1,5 @@
 import React from 'react'
-import './Cse4th.css';
+import './Sem3.css';
 import { Card } from 'antd';
 import {
     MenuFoldOutlined,
@@ -9,32 +9,30 @@ import {
     VideoCameraOutlined,
     FireTwoTone
 } from '@ant-design/icons';
-// import { Link} from "react-router-dom";
+import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
-import { Link} from "react-router-dom";
 import Logo from './Images/LOGO2 (2).gif'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
 
-function Cse4th() {
+function Sem6() {
 
     const [collapsed, setCollapsed] = useState(false);
     const {
         token: { colorBgContainer },
     } = theme.useToken();
 
-
   return (
-    <Layout >
+            <Layout >
             <Sider trigger={null} collapsible collapsed={collapsed}>
             <Link to='/' style={{}}>
                 <div className="logo" style={{height:80,width:170}}>
                     <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5,borderRadius:15}}/>
                 </div>
               </Link>
-              <Menu
+            <Menu
                 theme="dark"
                 mode="inline"
                 // defaultSelectedKeys={['1']}
@@ -85,7 +83,7 @@ function Cse4th() {
             >
                 <div style={{display:'flex',justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
                 <div className='even' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
-                    <Link to='/math4cs'>
+                    <Link to='/cse6th' style={{}}>
                         <Card
                             style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
@@ -99,109 +97,34 @@ function Cse4th() {
                             <Meta
                                 // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                                 
-                                title=" Mathematics-IV"
-                            />
+                                title=" CSE"
+                                />
                         </Card>
                     </Link>
-                    
-                    <Link to='/eco'>
+                    <Link to='/cst6th' style={{}}>
                         <Card
                             style={{ width: 500,backgroundColor:'#030852'}}
                             cover={
-                            <img
+                                <img
                                 alt="example"
                                 src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                                 style={{height:220}}
-                            />
+                                />
                             }
                         >
                             <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            title=" Engineering Economics "
+                            title=" CST/CEN "
                             />
                         </Card>
                     </Link>
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
-                    <Link to='/daa'>
+                    <Link to='/ece6th' style={{}}>
                         <Card
                             style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                             cover={
-                            <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                            />
-                            }
-                        >
-                            <Meta
-                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            title=" Design & Analysis of Algorithms "
-                            />
-                        </Card>
-                    </Link>
-
-                    <Link to='/dbms'>
-                        <Card
-                            style={{ width: 500,backgroundColor:'#030852'}}
-                            cover={
-                            <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                            />
-                            }
-                        >
-                            <Meta
-                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            title="Database Management Systems "
-                            />
-                        </Card>
-                    </Link>
-                </div>
-                <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
-                    <Link to='/os'>
-                        <Card
-                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
-                            cover={
-                            <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                            />
-                            }
-                        >
-                            <Meta
-                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            title=" Operating Systems  "
-                            />
-                        </Card>
-                    </Link>
-
-                    <Link to='/ai'>
-                        <Card
-                            style={{ width: 500,backgroundColor:'#030852'}}
-                            cover={
-                            <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                            />
-                            }
-                        >
-                            <Meta
-                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            title="Artificial Intelligence"
-                            />
-                        </Card>
-                    </Link>
-                </div>
-                <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
-                    <Link to="/ajp">
-                        <Card
-                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
-                            cover={
-                            <img
+                                <img
                                 alt="example"
                                 src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                                 style={{height:220}}
@@ -210,27 +133,47 @@ function Cse4th() {
                             >
                             <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            title="Advanced Java Programming  "
+                            title=" ECE "
                             />
                         </Card>
                     </Link>
-
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
+                    <Link to='/eee6th' style={{}}>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852'}}
+                            cover={
+                                <img
+                                alt="example"
+                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                style={{height:220}}
+                            />
                         }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="System Programming"
-                        />
-                    </Card>
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title="EEE"
+                            />
+                        </Card>
+                    </Link>
                 </div>
+                <div className='odd' style={{display:'flex', flexDirection:"row"}}>
+                    <Link to='/eie6th' style={{}}>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            cover={
+                                <img
+                                alt="example"
+                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                style={{height:220}}
+                            />
+                            }
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title=" EIE "
+                            />
+                        </Card>
+                    </Link>              
+                  </div>
                 </div>
 
             </Content>
@@ -239,4 +182,4 @@ function Cse4th() {
   )
 }
 
-export default Cse4th
+export default Sem6
