@@ -64,6 +64,7 @@ function App() {
               <Route path="/ci" element={<Ci/>} />
               <Route path="/be" element={<Be/>} />
               <Route path="/envs" element={<Envs/>} />
+
           <Route path="/sem2" element={<Sem2/>} />
               <Route path="/math2" element={<Math2/>} />
               <Route path="/dsa" element={<Dsa/>} />
