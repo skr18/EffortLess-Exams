@@ -42,8 +42,17 @@ import Signal from './Sem3QA/Signal'
 import Eee3rd from './Eee3rd';
 import Eie3rd from './Eie3rd';
 import Sem4 from './Sem4';
+
 import Cse4th from './Cse4th';
 import Cst4th from './Cst4th';
+import Math4cs from './Sem4QA/cs/Math'
+import Economics from './Sem4QA/cs/Economics';
+import Daa from './Sem4QA/cs/Daa';
+import Dbms from './Sem4QA/cs/Dbms';
+import Ai from './Sem4QA/cs/Ai';
+import Os from './Sem4QA/cs/Os';
+import Ajp from './Sem4QA/cs/Ajp';
+
 import Ece4th from './Ece4th';
 import Eee4th from './Eee4th';
 import Eie4th from './Eie4th';
@@ -117,6 +126,14 @@ function App() {
 
       <Route path="/sem4" element={<Sem4/>} />
           <Route path="/cse4th" element={<Cse4th/>} />
+              <Route path="/math4cs" element={<Math4cs/>} />
+              <Route path="/eco" element={<Economics/>} />
+              <Route path="/daa" element={<Daa/>} />
+              <Route path="/dbms" element={<Dbms/>} />
+              <Route path="/os" element={<Os/>} />
+              <Route path="/ai" element={<Ai/>} />
+              <Route path="/ajp" element={<Ajp/>} />
+          
           <Route path="/cst4th" element={<Cst4th/>} />
           <Route path="/ece4th" element={<Ece4th/>} />
           <Route path="/eee4th" element={<Eee4th/>} />
