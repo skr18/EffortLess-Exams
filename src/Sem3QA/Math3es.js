@@ -7,11 +7,13 @@ import {
   UploadOutlined,
   UserOutlined,
   VideoCameraOutlined,
+  FireTwoTone
 } from '@ant-design/icons';
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import {  Table } from 'antd';
+import Logo from '../Images/LOGO2 (2).gif'
 
 const { Header, Sider, Content } = Layout;
 // const { Meta } = Card;
@@ -27,7 +29,7 @@ const columns = [
       title: 'Question Paper',
       dataIndex: 'links',
       key: 'Question Paper',
-      render: (data) => <a href={data}>Biology</a>,
+      render: (data) => <a href={data}>Math3 ES</a>,
     },
     {
       title: 'Answers',
@@ -67,30 +69,40 @@ function Math3es() {
     } = theme.useToken();
 
   return (
-    <Layout  >
+    <Layout>
     <Sider trigger={null} collapsible collapsed={collapsed}>
-    <div className="logo" />
-    <Menu
+    <Link to='/' style={{}}>
+                <div className="logo" style={{height:80,width:170}}>
+                    <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5,borderRadius:15}}/>
+                </div>
+        </Link>
+        <Menu
         theme="dark"
         mode="inline"
-        defaultSelectedKeys={['1']}
+        // defaultSelectedKeys={['1']}
         items={[
-        {
-            key: '1',
-            icon: <UserOutlined />,
-            label: 'nav 1',
-        },
-        {
-            key: '2',
-            icon: <VideoCameraOutlined />,
-            label: 'nav 2',
-        },
-        {
-            key: '3',
-            icon: <UploadOutlined />,
-            label: 'nav 3',
-        },
-        ]}
+          {
+          key: '1',
+          icon: <UserOutlined />,
+          label:(
+              <Link to='https://surveyheart.com/form/640b8371c803e1092adf4ba1'>
+                Feedback
+              </Link>
+              
+            ), 
+          },
+          {
+          key: '2',
+          icon: <FireTwoTone />,
+          label: (
+              <Link to='/about'>
+                About Us
+              </Link>
+              
+            ),
+          }
+         
+      ]}
     />
     </Sider>
     <Layout className="site-layout">

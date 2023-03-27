@@ -34,12 +34,17 @@ import Bme from './Sem3QA/Bme'
 
 import Ece3rd from './Ece3rd';
 import Math3es from './Sem3QA/Math3es'
-import Circuit3 from './Sem3QA/Circuit3'
+import CircuitTh from './Sem3QA/CircuitTh';
 import Analog from './Sem3QA/Analog'
 import Signal from './Sem3QA/Signal'
 
 import Eee3rd from './Eee3rd';
 import Eie3rd from './Eie3rd';
+import Circuit3 from './Sem3QA/Circuit3'
+import Electromagnetic from './Sem3QA/Electromagnetic';
+import Instrumentation from './Sem3QA/Instrumentation';
+
+
 import Sem4 from './Sem4';
 import Cse4th from './Cse4th';
 import Cst4th from './Cst4th';
@@ -83,12 +88,18 @@ function App() {
               <Route path="/java" element={<Java/>} />
 
           <Route path="/ece3rd" element={<Ece3rd/>} />
+                <Route path="/circuitThece" element={<CircuitTh/>} />
+          
           <Route path="/eee3rd" element={<Eee3rd/>} />
+              <Route path="/electromagneticTH" element={<Electromagnetic/>} />
+          
           <Route path="/eie3rd" element={<Eie3rd/>} />
               <Route path="/signal" element={<Signal/>} />
               <Route path="/analog" element={<Analog/>} />
               <Route path="/circuit3" element={<Circuit3/>} />
               <Route path="/math3es" element={<Math3es/>}/>
+              <Route path="/instrumentation" element={<Instrumentation/>}/>
+
 
 
       <Route path="/sem4" element={<Sem4/>} />
