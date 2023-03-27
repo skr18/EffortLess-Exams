@@ -123,27 +123,8 @@ function Home() {
                 </Card>
                 </Link>
                 </div>
-                <Alert
-                    style={{maxWidth:800,fontSize:20,marginBottom:30}}
-                    banner
-                    type="success"
-                    message={
-                    <Marquee speed={100} pauseOnHover gradient={false}>
-                        Chemistry/ Physics, Basic Electrical/ Basic Electronics Answers Are Now Available.
-                    </Marquee>
-                    }
-                />
-                <Alert
-                    style={{maxWidth:800,fontSize:20}}
-                    banner
-                    type="info"
-                    message={
-                    <Marquee speed={70} pauseOnHover gradient={false}>
-                        Other Years Answers Will Be Updated Soon &nbsp;  &nbsp;  ||  &nbsp; &nbsp; If There Is Any Issue With The Answers Please Suggest Edits In Respective Google Docs  &nbsp;  &nbsp; ||  &nbsp;  &nbsp;
-                    </Marquee>
-                    }
-                />
-                {/* <div className='odd' style={{display:'flex', flexDirection:"row"}}>
+                
+                <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                 <Link to='/third' style={{}}>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
@@ -178,7 +159,28 @@ function Home() {
                         title="4th Year"
                     />
                 </Card>
-                </div> */}
+                </div>
+                <br />
+                <Alert
+                    style={{maxWidth:800,fontSize:20,marginBottom:30}}
+                    banner
+                    type="success"
+                    message={
+                    <Marquee speed={100} pauseOnHover gradient={false}>
+                        Chemistry/ Physics, Basic Electrical/ Basic Electronics Answers Are Now Available.
+                    </Marquee>
+                    }
+                />
+                <Alert
+                    style={{maxWidth:800,fontSize:20}}
+                    banner
+                    type="info"
+                    message={
+                    <Marquee speed={70} pauseOnHover gradient={false}>
+                        Other Years Answers Will Be Updated Soon &nbsp;  &nbsp;  ||  &nbsp; &nbsp; If There Is Any Issue With The Answers Please Suggest Edits In Respective Google Docs  &nbsp;  &nbsp; ||  &nbsp;  &nbsp;
+                    </Marquee>
+                    }
+                />
             </div>
 
             </Content>
