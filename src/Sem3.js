@@ -14,6 +14,11 @@ import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import Logo from './Images/LOGO2 (2).gif'
 
+import Cse from './Images/CSE.png'
+import Eee from './Images/EEE.png'
+import Eie from './Images/EIE.png'
+import Ece from './Images/ECE.png'
+import Cst from './Images/CST.png'
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
 
@@ -87,11 +92,11 @@ function Sem3() {
                         <Card
                             style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
-                                <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                                />
+                              <img
+                              alt="example"
+                              src={Cse}
+                              style={{height:300}}
+                              />
                             }
                             >
                             <Meta
@@ -103,15 +108,15 @@ function Sem3() {
                     </Link>
                     <Link to='/cst3rd' style={{}}>
                         <Card
-                            style={{ width: 500,backgroundColor:'#030852'}}
+                            style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
-                                <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                                />
+                              <img
+                              alt="example"
+                              src={Cst}
+                              style={{height:300}}
+                              />
                             }
-                        >
+                            >
                             <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                             title=" CST/CEN "
@@ -122,13 +127,13 @@ function Sem3() {
                 <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
                     <Link to='/ece3rd' style={{}}>
                         <Card
-                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
-                                <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                                />
+                              <img
+                              alt="example"
+                              src={Ece}
+                              style={{height:300}}
+                              />
                             }
                             >
                             <Meta
@@ -139,15 +144,15 @@ function Sem3() {
                     </Link>
                     <Link to='/eee3rd' style={{}}>
                         <Card
-                            style={{ width: 500,backgroundColor:'#030852'}}
+                            style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
-                                <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                            />
-                        }
-                        >
+                              <img
+                              alt="example"
+                              src={Eee}
+                              style={{height:300}}
+                              />
+                            }
+                            >
                             <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                             title="EEE"
@@ -158,14 +163,15 @@ function Sem3() {
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                     <Link to='/eie3rd' style={{}}>
                         <Card
-                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
-                                <img
-                                alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
-                            />
+                              <img
+                              alt="example"
+                              src={Eie}
+                              style={{height:300}}
+                              />
                             }
+                            >
                         >
                             <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
