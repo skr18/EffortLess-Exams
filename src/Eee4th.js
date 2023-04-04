@@ -68,10 +68,10 @@ function Eee4th() {
         background: colorBgContainer,
         }}
     >
-        {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+        {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
         className: 'trigger',
         onClick: () => setCollapsed(!collapsed),
-        })}
+        })} */}
     </Header>
     <Content
         style={{
@@ -84,6 +84,7 @@ function Eee4th() {
         <div style={{display:'flex',justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
         <div className='even' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
 
+            <Link to='/math4ece'>
             <Card
                 style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                 cover={
@@ -98,9 +99,11 @@ function Eee4th() {
                     // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                     
                     title=" Mathematics-IV"
-                />
+                    />
             </Card>
+            </Link>
 
+              <Link to='/fun4'>
             <Card
                 style={{ width: 500,backgroundColor:'#030852'}}
                 cover={
@@ -110,18 +113,20 @@ function Eee4th() {
                     style={{height:220}}
                 />
                 }
-            >
+                >
                 <Meta
                 // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                title=" Basics of Mechanical Engineering  "
+                title=" Fundamentals of Management  "
                 />
             </Card>
+            </Link>  
         </div>
         <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+            <Link to='/digcir4'>
             <Card
                 style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                 cover={
-                <img
+                    <img
                     alt="example"
                     src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                     style={{height:220}}
@@ -130,14 +135,16 @@ function Eee4th() {
             >
                 <Meta
                 // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                title=" Transducers & Measurement Systems "
+                title=" Digital Electronic Circuits  "
                 />
             </Card>
+            </Link>
 
+                <Link to='/mach4'>
             <Card
                 style={{ width: 500,backgroundColor:'#030852'}}
                 cover={
-                <img
+                    <img
                     alt="example"
                     src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                     style={{height:220}}
@@ -146,15 +153,17 @@ function Eee4th() {
             >
                 <Meta
                 // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                title="Control Systems Engineering"
+                title="Electrical Machines"
                 />
             </Card>
+            </Link>
         </div>
-        <div className='odd' style={{display:'flex', flexDirection:"row"}}>
+        <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+            <Link to='/meas4'>
             <Card
                 style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                 cover={
-                <img
+                    <img
                     alt="example"
                     src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                     style={{height:220}}
@@ -163,10 +172,12 @@ function Eee4th() {
             >
                 <Meta
                 // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                title="Digital Electronic Circuits "
+                title="Measurements & Instrumentation "
                 />
             </Card>
+            </Link>
 
+              <Link to='/uhvp'>
             <Card
                 style={{ width: 500,backgroundColor:'#030852'}}
                 cover={
@@ -179,9 +190,10 @@ function Eee4th() {
             >
                 <Meta
                 // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                title="COA"
+                title="UHVP - Ethics"
                 />
             </Card>
+            </Link>  
         </div>
         </div>
 

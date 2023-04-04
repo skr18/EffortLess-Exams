@@ -25,168 +25,214 @@ function Cst4th() {
     } = theme.useToken();
   return (
     <Layout >
-            <Sider trigger={null} collapsible collapsed={collapsed}>
-            <Link to='/' style={{}}>
-                <div className="logo" style={{height:80,width:170}}>
-                    <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5,borderRadius:15}}/>
-                </div>
-              </Link>
-              <Menu
-                theme="dark"
-                mode="inline"
-                // defaultSelectedKeys={['1']}
-                items={[
-                    {
-                    key: '1',
-                    icon: <UserOutlined />,
-                    label:(
-                        <Link to='https://surveyheart.com/form/640b8371c803e1092adf4ba1'>
-                          Feedback
-                        </Link>
-                        
-                      ), 
-                    },
-                    {
-                    key: '2',
-                    icon: <FireTwoTone />,
-                    label: (
-                        <Link to='/about'>
-                          About Us
-                        </Link>
-                        
-                      ),
+    <Sider trigger={null} collapsible collapsed={collapsed}>
+    <Link to='/' style={{}}>
+        <div className="logo" style={{height:80,width:170}}>
+            <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5,borderRadius:15}}/>
+        </div>
+      </Link>
+      <Menu
+        theme="dark"
+        mode="inline"
+        // defaultSelectedKeys={['1']}
+        items={[
+            {
+            key: '1',
+            icon: <UserOutlined />,
+            label:(
+                <Link to='https://surveyheart.com/form/640b8371c803e1092adf4ba1'>
+                  Feedback
+                </Link>
+                
+              ), 
+            },
+            {
+            key: '2',
+            icon: <FireTwoTone />,
+            label: (
+                <Link to='/about'>
+                  About Us
+                </Link>
+                
+              ),
+            }
+           
+        ]}
+    />
+    </Sider>
+    <Layout className="site-layout">
+    <Header
+        style={{
+        padding: 0,
+        background: colorBgContainer,
+        }}
+    >
+        {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+        className: 'trigger',
+        onClick: () => setCollapsed(!collapsed),
+        })} */}
+    </Header>
+    <Content
+        style={{
+        margin: '24px 16px',
+        padding: 24,
+        minHeight: 680,
+        background: colorBgContainer,
+        }}
+    >
+        <div style={{display:'flex',justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+        <div className='even' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+            <Link to='/math4cs'>
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
+                    cover={
+                        <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                        />
                     }
-                   
-                ]}
-            />
-            </Sider>
-            <Layout className="site-layout">
-            <Header
-                style={{
-                padding: 0,
-                background: colorBgContainer,
-                }}
+                    >
+                    <Meta
+                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                        
+                        title=" Mathematics-IV"
+                    />
+                </Card>
+            </Link>
+            
+            <Link to='/eco'>
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852'}}
+                    cover={
+                    <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                    />
+                    }
+                >
+                    <Meta
+                    // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                    title=" Engineering Economics "
+                    />
+                </Card>
+            </Link>
+        </div>
+        <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+            <Link to='/daa'>
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                    cover={
+                    <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                    />
+                    }
+                >
+                    <Meta
+                    // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                    title=" Design & Analysis of Algorithms "
+                    />
+                </Card>
+            </Link>
+
+            <Link to='/dbms'>
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852'}}
+                    cover={
+                    <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                    />
+                    }
+                >
+                    <Meta
+                    // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                    title="Database Management Systems "
+                    />
+                </Card>
+            </Link>
+        </div>
+        <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+            <Link to='/os'>
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                    cover={
+                    <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                    />
+                    }
+                >
+                    <Meta
+                    // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                    title=" Operating Systems  "
+                    />
+                </Card>
+            </Link>
+
+            <Link to='/ai'>
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852'}}
+                    cover={
+                    <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                    />
+                    }
+                >
+                    <Meta
+                    // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                    title="Artificial Intelligence"
+                    />
+                </Card>
+            </Link>
+        </div>
+        <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+            <Link to="/ajp">
+                <Card
+                    style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                    cover={
+                    <img
+                        alt="example"
+                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        style={{height:220}}
+                        />
+                    }
+                    >
+                    <Meta
+                    // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                    title="Advanced Java Programming  "
+                    />
+                </Card>
+            </Link>
+
+            <Card
+                style={{ width: 500,backgroundColor:'#030852'}}
+                cover={
+                <img
+                    alt="example"
+                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    style={{height:220}}
+                />
+                }
             >
-                {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
-                className: 'trigger',
-                onClick: () => setCollapsed(!collapsed),
-                })}
-            </Header>
-            <Content
-                style={{
-                margin: '24px 16px',
-                padding: 24,
-                minHeight: 680,
-                background: colorBgContainer,
-                }}
-            >
-                <div style={{display:'flex',justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-                <div className='even' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+                <Meta
+                // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                title="System Programming"
+                />
+            </Card>
+        </div>
+        </div>
 
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
-                        cover={
-                            <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                            />
-                        }
-                        >
-                        <Meta
-                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                            
-                            title=" Math 3 Cs"
-                        />
-                    </Card>
-
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title=" Biology "
-                        />
-                    </Card>
-                </div>
-                <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title=" Oops Using Java "
-                        />
-                    </Card>
-
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Digital Electronics"
-                        />
-                    </Card>
-                </div>
-                <div className='odd' style={{display:'flex', flexDirection:"row"}}>
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title=" BME "
-                        />
-                    </Card>
-
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="COA"
-                        />
-                    </Card>
-                </div>
-                </div>
-
-            </Content>
-            </Layout>
-            </Layout>
+    </Content>
+    </Layout>
+    </Layout>
   )
 }
 
