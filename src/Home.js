@@ -10,8 +10,8 @@ import {
 } from '@ant-design/icons';
 import { Alert } from 'antd';
 import Marquee from 'react-fast-marquee';
-import Image1 from './Images/1ST YEAR.gif'
-import Image2 from './Images/2ND YEAR.gif'
+import Image1 from './Images/1ST YEAR (1).gif'
+import Image2 from './Images/2ND YEAR (2).gif'
 import Logo from './Images/LOGO2 (2).gif'
 import { Layout, Menu, theme } from 'antd';
 import React, { useState,useRef } from 'react';
@@ -94,7 +94,7 @@ function Home() {
                         <img
                         alt="example"
                         src={Image1}
-                        style={{height:300,objectFit:'cover',width:500}}
+                        style={{height:300}}
                         />
                         }
                     >
@@ -107,12 +107,12 @@ function Home() {
 
                 <Link to='/second' style={{}}>
                 <Card
-                    style={{ width: 500,backgroundColor:'#030852'}}
+                    style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                     cover={
                         <img
                         alt="example"
                         src={Image2}
-                        style={{height:300,objectFit:'cover',width:500}}
+                        style={{height:300}}
                         />
                     }
                     >
@@ -127,12 +127,12 @@ function Home() {
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                 <Link to='/third' style={{}}>
                     <Card
-                        style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                        style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
+                            src={Image2}
+                            style={{height:300}}
                             />
                         }
                         >
@@ -145,12 +145,12 @@ function Home() {
                 <Link to='/fourth' style={{}}>
                 </Link>
                 <Card
-                    style={{ width: 500,backgroundColor:'#030852'}}
+                    style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                     cover={
                         <img
                         alt="example"
-                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                        style={{height:220}}
+                        src={Image2}
+                        style={{height:300}}
                         />
                     }
                     >

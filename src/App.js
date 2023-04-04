@@ -59,7 +59,19 @@ import Os from './Sem4QA/cs/Os';
 import Ajp from './Sem4QA/cs/Ajp';
 
 import Ece4th from './Ece4th';
+import Analog4 from './Sem4QA/Ece/Analog';
+import Bme4 from './Sem4QA/Ece/Bme';
+import Consys from './Sem4QA/Ece/Consys'
+import Digsignal from './Sem4QA/Ece/Digsignal'
+import Math4ece from './Sem4QA/Ece/Math4'
+import Uhvp from './Sem4QA/Ece/Uhvp'
+
 import Eee4th from './Eee4th';
+import Digcir from './Sem4QA/EEE/Digcir4'
+import Funda4 from './Sem4QA/EEE/Funda4'
+import Mea4 from './Sem4QA/EEE/Mea4'
+import Mech4 from './Sem4QA/EEE/Mech4'
+
 import Eie4th from './Eie4th';
 
 
@@ -86,6 +98,8 @@ import Cst6th from './Cst6th';
 import Ece6th from './Ece6th';
 import Eee6th from './Eee6th';
 import Eie6th from './Eie6th';
+import Digcir4 from './Sem4QA/EEE/Digcir4';
+import Tra4 from './Sem4QA/Eie/Tra4';
 function App() {
 
   return (
@@ -139,6 +153,7 @@ function App() {
 
       <Route path="/sem4" element={<Sem4/>} />
           <Route path="/cse4th" element={<Cse4th/>} />
+          <Route path="/cst4th" element={<Cst4th/>} />
               <Route path="/math4cs" element={<Math4cs/>} />
               <Route path="/eco" element={<Economics/>} />
               <Route path="/daa" element={<Daa/>} />
@@ -147,10 +162,23 @@ function App() {
               <Route path="/ai" element={<Ai/>} />
               <Route path="/ajp" element={<Ajp/>} />
           
-          <Route path="/cst4th" element={<Cst4th/>} />
           <Route path="/ece4th" element={<Ece4th/>} />
+              <Route path="/math4ece" element={<Math4ece/>} />
+              <Route path="/uhvp" element={<Uhvp/>} />
+              <Route path="/dig4" element={<Digsignal/>} />
+              <Route path="/ana4" element={<Analog4/>} />
+              <Route path="/bme4" element={<Bme4/>} />
+              <Route path="/con4" element={<Consys/>} />
+  
+
           <Route path="/eee4th" element={<Eee4th/>} />
+              <Route path="/digcir4" element={<Digcir4/>} />
+              <Route path="/fun4" element={<Funda4/>} />
+              <Route path="/meas4" element={<Mea4/>} />
+              <Route path="/mach4" element={<Mech4/>} />
+
           <Route path="/eie4th" element={<Eie4th/>} />
+            <Route path="/tra4" element={<Tra4/>} />
       
       <Route path="/third" element={<Third/>} />
           <Route path="/sem5" element={<Sem5/>} />
