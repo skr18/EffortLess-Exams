@@ -67,6 +67,13 @@ import Eie4th from './Eie4th';
 import Sem5 from './Sem5';
 import Cse5th from './Cse5th';
 import Cst5th from './Cst5th';
+import Cn from './Sem5QA/Cn'
+import Flat from './Sem5QA/Flat'
+import Dmdw from './Sem5QA/Dmdw'
+import Mc from './Sem5QA/Mc'
+import Ml from './Sem5QA/Ml'
+import Uhvpe from './Sem5QA/Uhvpe'
+import Rs from './Sem5QA/Rs'
 import Ece5th from './Ece5th';
 import Eee5th from './Eee5th';
 import Eie5th from './Eie5th';
@@ -75,12 +82,7 @@ import Eie5th from './Eie5th';
 import Sem6 from './Sem6';
 import Cse6th from './Cse6th';
 import Cst6th from './Cst6th';
-import Cn from './Sem5QA/Cn'
-import Flat from './Sem5QA/Flat'
-import Dmdw from './Sem5QA/Dmdw'
-import Mc from './Sem5QA/Mc'
-import Ml from './Sem5QA/Ml'
-import Uhvpe from './Sem5QA/Uhvpe'
+
 import Ece6th from './Ece6th';
 import Eee6th from './Eee6th';
 import Eie6th from './Eie6th';
@@ -154,6 +156,13 @@ function App() {
           <Route path="/sem5" element={<Sem5/>} />
              <Route path="/cse5th" element={<Cse5th/>} />
              <Route path="/cst5th" element={<Cst5th/>} />
+                 <Route path='/cn' element={<Cn />} />
+                 <Route path='/Dmdw' element={<Dmdw />} />
+                 <Route path='/Flat' element={<Flat />} />
+                 <Route path='/Mc' element={<Mc />} />
+                 <Route path='/Ml' element={<Ml />} />
+                 <Route path='/Rs' element={<Rs />} />
+                 <Route path='/Uhvpe' element={<Uhvpe />} />
              <Route path="/ece5th" element={<Ece5th/>} />
              <Route path="/eee5th" element={<Eee5th/>} />
              <Route path="/eie5th" element={<Eie5th/>} />
