@@ -14,6 +14,12 @@ import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import { Link} from "react-router-dom";
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import FMimage from './Images/FUNDAMENTAL OF MANAGEMENT.png'
+import DECimage from './Images/DIGITAL ELECTRONIC CIRCUIT.png'
+import EMimage from './Images/ELECTRICAL MACHINES.png'
+import MIimage from './Images/MEASUREMENT AND INSTRUMENTATION.png'
+import UHVPEimage from './Images/UHVPE.png'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -90,7 +96,7 @@ function Eee4th() {
                 cover={
                     <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={MATHimage}
                     style={{height:220}}
                     />
                 }
@@ -109,7 +115,7 @@ function Eee4th() {
                 cover={
                 <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={FMimage}
                     style={{height:220}}
                 />
                 }
@@ -128,7 +134,7 @@ function Eee4th() {
                 cover={
                     <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={DECimage}
                     style={{height:220}}
                 />
                 }
@@ -146,7 +152,7 @@ function Eee4th() {
                 cover={
                     <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={EMimage}
                     style={{height:220}}
                 />
                 }
@@ -165,7 +171,7 @@ function Eee4th() {
                 cover={
                     <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={MIimage}
                     style={{height:220}}
                 />
                 }
@@ -183,7 +189,7 @@ function Eee4th() {
                 cover={
                 <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={UHVPEimage}
                     style={{height:220}}
                 />
                 }

@@ -13,6 +13,12 @@ import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import CSimage from './Images/Circuit and signal.png'
+import JAVAimage from './Images/JAVA.gif'
+import BIimage from './Images/basics of instrumentation.png'
+import ACimage from './Images/Analog circuit.png'
+import BIOimage from './Images/BIO.gif'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -89,7 +95,7 @@ function Eie3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MATHimage}
                             style={{height:220}}
                             />
                         }
@@ -108,7 +114,7 @@ function Eie3rd() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={CSimage}
                                 style={{height:220}}
                             />
                             }
@@ -127,7 +133,7 @@ function Eie3rd() {
                         cover={
                         <img
                         alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={JAVAimage}
                             style={{height:220}}
                         />
                         }
@@ -146,7 +152,7 @@ function Eie3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BIimage}
                             style={{height:220}}
                         />
                         }
@@ -165,7 +171,7 @@ function Eie3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={ACimage}
                             style={{height:220}}
                         />
                         }
@@ -183,7 +189,7 @@ function Eie3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BIOimage}
                             style={{height:220}}
                         />
                         }

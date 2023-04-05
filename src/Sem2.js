@@ -11,6 +11,8 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
+import DSAimage from './Images/DSA.png'
+import CTEimage from './Images/CTE.gif'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -102,7 +104,7 @@ function Sem2() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DSAimage}
                                 style={{height:220}}
                                 />
                             }
@@ -121,7 +123,7 @@ function Sem2() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={CTEimage}
                             style={{height:220}}
                         />
                         }

@@ -14,6 +14,12 @@ import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import { Link} from "react-router-dom";
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import BMEimage from './Images/BME.png'
+import TMimage from './Images/T AND M.png'
+import CSEimage from './Images/CONTROL SYSTEM ENGINNERING.png'
+import DSPimage from './Images/DIGITAL SIGNAL PROCESSING.png'
+
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -89,7 +95,7 @@ function Eie4th() {
                 cover={
                     <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={MATHimage}
                     style={{height:220}}
                     />
                 }
@@ -108,7 +114,7 @@ function Eie4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BMEimage}
                             style={{height:220}}
                         />
                         }
@@ -127,7 +133,7 @@ function Eie4th() {
                 cover={
                     <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={TMimage}
                     style={{height:220}}
                 />
                 }
@@ -145,7 +151,7 @@ function Eie4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={CSEimage}
                             style={{height:220}}
                             />
                         }
@@ -164,7 +170,7 @@ function Eie4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DSPimage}
                             style={{height:220}}
                             />
                         }

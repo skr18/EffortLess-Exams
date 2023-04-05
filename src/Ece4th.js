@@ -14,6 +14,12 @@ import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import { Link} from "react-router-dom";
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import BMEimage from './Images/BME.png'
+import DSPimage from './Images/DIGITAL SIGNAL PROCESSING.png'
+import ACimage from './Images/Analog communication.png'
+import CSEimage from './Images/CONTROL SYSTEM ENGINNERING.png'
+import UHVPEimage from './Images/UHVPE.png'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -89,7 +95,7 @@ function Ece4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MATHimage}
                             style={{height:220}}
                             />
                         }
@@ -108,7 +114,7 @@ function Ece4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BMEimage}
                             style={{height:220}}
                         />
                         }
@@ -127,7 +133,7 @@ function Ece4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DSPimage}
                             style={{height:220}}
                             />
                         }
@@ -145,7 +151,7 @@ function Ece4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={ACimage}
                             style={{height:220}}
                             />
                         }
@@ -164,7 +170,7 @@ function Ece4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={CSEimage}
                             style={{height:220}}
                             />
                         }
@@ -182,7 +188,7 @@ function Ece4th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={UHVPEimage}
                             style={{height:220}}
                         />
                         }

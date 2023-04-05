@@ -14,6 +14,14 @@ import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import { Link} from "react-router-dom";
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import ECOimage from './Images/ECO.png'
+import DAAimage from './Images/DAA.png'
+import DBMSimage from './Images/DBMS.gif'
+import OSimage from './Images/OS.png'
+import AIimage from './Images/AI.png'
+import AJPimage from './Images/AJP.png'
+import SPimage from './Images/SYSTEM PROGRAMMING.png'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -91,7 +99,7 @@ function Cse4th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={MATHimage}
                                 style={{height:220}}
                                 />
                             }
@@ -110,7 +118,7 @@ function Cse4th() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={ECOimage}
                                 style={{height:220}}
                             />
                             }
@@ -129,7 +137,7 @@ function Cse4th() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DAAimage}
                                 style={{height:220}}
                             />
                             }
@@ -147,7 +155,7 @@ function Cse4th() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DBMSimage}
                                 style={{height:220}}
                             />
                             }
@@ -166,7 +174,7 @@ function Cse4th() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={OSimage}
                                 style={{height:220}}
                             />
                             }
@@ -184,7 +192,7 @@ function Cse4th() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={AIimage}
                                 style={{height:220}}
                             />
                             }
@@ -203,7 +211,7 @@ function Cse4th() {
                             cover={
                             <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={AJPimage}
                                 style={{height:220}}
                                 />
                             }
@@ -220,7 +228,7 @@ function Cse4th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={SPimage}
                             style={{height:220}}
                         />
                         }

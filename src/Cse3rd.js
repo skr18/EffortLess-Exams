@@ -12,6 +12,12 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import BIOimage from './Images/BIO.gif'
+import JAVAimage from './Images/JAVA.gif'
+import DEimage from './Images/DIGITAL ELECTRONICS.png'
+import BMEimage from './Images/BME.png'
+import COAimage from './Images/COA.png'
 
 import { useState } from 'react';
 
@@ -93,7 +99,7 @@ function Cse3rd() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={MATHimage}
                                 style={{height:220}}
                                 />
                             }
@@ -112,7 +118,7 @@ function Cse3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BIOimage}
                             style={{height:220}}
                         />
                     }
@@ -131,7 +137,7 @@ function Cse3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={JAVAimage}
                             style={{height:220}}
                         />
                         }
@@ -149,7 +155,7 @@ function Cse3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DEimage}
                             style={{height:220}}
                             />
                         }
@@ -169,7 +175,7 @@ function Cse3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BMEimage}
                             style={{height:220}}
                         />
                         }
@@ -187,7 +193,7 @@ function Cse3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={COAimage}
                             style={{height:220}}
                         />
                         }

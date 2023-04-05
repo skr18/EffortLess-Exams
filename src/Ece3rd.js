@@ -13,6 +13,12 @@ import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
 import Logo from './Images/LOGO2 (2).gif'
+import MATHimage from './Images/Maths.gif'
+import CTimage from './Images/Circuit Theory.png'
+import JAVAimage from './Images/JAVA.gif'
+import DECimage from './Images/DIGITAL ELECTRONIC CIRCUIT.png'
+import ACimage from './Images/Analog circuit.png'
+import SSimage from './Images/Signal and System.gif'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -91,7 +97,7 @@ function Ece3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MATHimage}
                             style={{height:220}}
                             />
                         }
@@ -110,7 +116,7 @@ function Ece3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={CTimage}
                             style={{height:220}}
                         />
                         }
@@ -131,7 +137,7 @@ function Ece3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={JAVAimage}
                             style={{height:220}}
                         />
                     }
@@ -149,7 +155,7 @@ function Ece3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DECimage}
                             style={{height:220}}
                         />
                     }
@@ -169,7 +175,7 @@ function Ece3rd() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={ACimage}
                             style={{height:220}}
                         />
                         }
@@ -187,7 +193,7 @@ function Ece3rd() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={SSimage}
                             style={{height:220}}
                         />
                         }

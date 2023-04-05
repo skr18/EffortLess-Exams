@@ -12,6 +12,8 @@ import { Alert } from 'antd';
 import Marquee from 'react-fast-marquee';
 import Image1 from './Images/1ST YEAR (1).gif'
 import Image2 from './Images/2ND YEAR (2).gif'
+import Image3 from './Images/3RD YEAR.gif'
+import Image4 from './Images/4TH YEAR.gif'
 import Logo from './Images/LOGO2 (2).gif'
 import { Layout, Menu, theme } from 'antd';
 import React, { useState,useRef } from 'react';
@@ -34,7 +36,7 @@ function Home() {
       <Layout >
         <Sider trigger={null} collapsible collapsed={collapsed}>
             <div className="logo" style={{height:80,width:180}}>
-                <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5}}/>
+                <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5,borderRadius:15}}/>
             </div>
             <Menu
             theme="dark"
@@ -127,15 +129,15 @@ function Home() {
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                 <Link to='/third' style={{}}>
                     <Card
-                        style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
-                        cover={
-                            <img
-                            alt="example"
-                            src={Image2}
-                            style={{height:300}}
-                            />
-                        }
-                        >
+                         style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
+                         cover={
+                         <img
+                         alt="example"
+                         src={Image3}
+                         style={{height:300}}
+                         />
+                         }
+                     >
                         <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                             title="3rd Year"
@@ -145,15 +147,15 @@ function Home() {
                 <Link to='/fourth' style={{}}>
                 </Link>
                 <Card
-                    style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
-                    cover={
-                        <img
-                        alt="example"
-                        src={Image2}
-                        style={{height:300}}
-                        />
-                    }
-                    >
+                     style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
+                     cover={
+                     <img
+                     alt="example"
+                     src={Image4}
+                     style={{height:300}}
+                     />
+                     }
+                 >
                     <Meta
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                         title="4th Year"
