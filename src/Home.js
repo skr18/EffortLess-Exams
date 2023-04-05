@@ -1,11 +1,7 @@
 import './Home.css';
 import { Card } from 'antd';
 import {
-  MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  UploadOutlined,
   UserOutlined,
-  VideoCameraOutlined,
   FireTwoTone,
 } from '@ant-design/icons';
 import { Alert } from 'antd';
@@ -142,7 +138,7 @@ function Home() {
                             />
                     </Card>
                 </Link>
-                <Link to='/fourth' style={{}}>
+                {/* <Link to='/fourth' style={{}}>
                 </Link>
                 <Card
                     style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
@@ -158,7 +154,7 @@ function Home() {
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                         title="4th Year"
                     />
-                </Card>
+                </Card> */}
                 </div>
                 <br />
                 <Alert

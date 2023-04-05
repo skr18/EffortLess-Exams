@@ -7,10 +7,20 @@ import {
   UploadOutlined,
   UserOutlined,
   VideoCameraOutlined,
+  FireTwoTone
 } from '@ant-design/icons';
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
+import Logo from './Images/LOGO2 (2).gif'
+import EImage from './Images/Environment science.gif'
+import Pimage from './Images/Physics.gif'
+import CIimage from './Images/Constitution.png'
+import Cimage from './Images/Chemistry.gif'
+import Cpimage from './Images/Computer Programming.png'
+import Mimage from './Images/Maths.gif'
+import BEimage from './/Images/BASIC_E.png'
+import BIimage from './Images/BASIC ELECTRONICS.gif'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -23,36 +33,40 @@ function Sem2() {
     } = theme.useToken();
 
   return (
-        <Layout >
-            <Sider trigger={null} collapsible collapsed={collapsed}>
-            <div className="logo" />
-            <Menu
-                theme="dark"
-                mode="inline"
-                defaultSelectedKeys={['1']}
-                items={[
-                    {
-                    key: '1',
-                    icon: <UserOutlined />,
-                    label:(
-                        <Link to='https://surveyheart.com/form/640b8371c803e1092adf4ba1'>
-                          Feedback
-                        </Link>
-                        
-                      ), 
-                    },
-                    {
-                    key: '2',
-                    icon: <VideoCameraOutlined />,
-                    label: (
-                        <Link to='/about'>
-                          About Us
-                        </Link>
-                        
-                      ),
-                    }
-                   
-                ]}
+    <Layout  >
+    <Sider trigger={null} collapsible collapsed={collapsed}>
+    <Link to='/' style={{}}>
+        <div className="logo" style={{height:80,width:170}}>
+            <img src={Logo} alt="" style={{height:100,width:195,position:'absolute',left:0,top:5,borderRadius:15}}/>
+        </div>
+      </Link>
+    <Menu
+        theme="dark"
+        mode="inline"
+        // defaultSelectedKeys={['1']}
+        items={[
+            {
+            key: '1',
+            icon: <UserOutlined />,
+            label:(
+                <Link to='https://surveyheart.com/form/640b8371c803e1092adf4ba1'>
+                  Feedback
+                </Link>
+                
+              ), 
+            },
+            {
+            key: '2',
+            icon: <FireTwoTone/>,
+            label: (
+                <Link to='/about'>
+                  About Us
+                </Link>
+                
+              ),
+            }
+           
+        ]}
             />
             </Sider>
             <Layout className="site-layout">
@@ -62,10 +76,10 @@ function Sem2() {
                 background: colorBgContainer,
                 }}
             >
-                {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+                {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
                 className: 'trigger',
                 onClick: () => setCollapsed(!collapsed),
-                })}
+                })} */}
             </Header>
             <Content
                 style={{
@@ -83,8 +97,8 @@ function Sem2() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                style={{height:220}}
+                                src={Mimage}
+                                style={{height:300}}
                                 />
                             }
                             >
@@ -134,115 +148,116 @@ function Sem2() {
                     </Link>
                     
                     <Link to='/envs'>
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Environmental Science"
-                        />
-                    </Card>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            cover={
+                                <img
+                                alt="example"
+                                src={EImage}
+                                style={{height:300}}
+                            />
+                            }
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title="Environmental Science"
+                            />
+                        </Card>
                     </Link>
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
                    
-                    <Link to='/be'>
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
-                        cover={
-                        <img
-                        alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Basic Electrical"
-                        />
-                    </Card>
+                <Link to='/be'>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            cover={
+                                <img
+                                alt="example"
+                                src={BEimage}
+                                style={{height:300}}
+                            />
+                            }
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title="Basic Electrical "
+                            />
+                        </Card>
                     </Link>
                     <Link to='/bee'>
                     <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                        alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Basic Electronics"
-                        />
-                    </Card>
-                    </Link>
-                </div>
-                <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
-                   
-                    <Link to='/chy'>
-                    <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
-                        <img
-                        alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
+                            <img
+                            alt="example"
+                            src={BIimage}
+                            style={{height:300}}
                         />
                         }
                     >
                         <Meta
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Chemistry"
+                        title=" Basic Electronics "
                         />
                     </Card>
+
+                    </Link>
+                </div>
+                <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:'40px'}}>
+                   
+                <Link to='/chy'>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            cover={
+                                <img
+                                alt="example"
+                                src={Cimage}
+                                style={{height:300}}
+                            />
+                            }
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title="Chemistry"
+                            />
+                        </Card>
                     </Link>
                     <Link to='/phy'>
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
-                        cover={
-                        <img
-                        alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Physics"
-                        />
-                    </Card>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            cover={
+                                <img
+                                alt="example"
+                                src={Pimage}
+                                style={{height:300}}
+                            />
+                            }
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title="Physics "
+                            />
+                        </Card>
                     </Link>
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
                    
-                    <Link to='/ci'>
-                    <Card
-                        style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
-                        cover={
-                        <img
-                        alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                            style={{height:220}}
-                        />
-                        }
-                    >
-                        <Meta
-                        // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title="Constitution Of India"
-                        />
-                    </Card>
+                <Link to='/ci'>
+                        <Card
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
+                            cover={
+                                <img
+                                alt="example"
+                                src={CIimage}
+                                style={{height:300}}
+                            />
+                            }
+                        >
+                            <Meta
+                            // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
+                            title="Constitution Of India "
+                            />
+                        </Card>
                     </Link>
                 </div>
                 </div>
