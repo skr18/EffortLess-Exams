@@ -40,17 +40,45 @@ import {
     ];
     const data = [
       {
-        years: '2020-21',
+        years: '2019-20 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1f7ptQ9plihYae5ZGnfPXtYPQ3Unmuw2M/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1lvmIfVFez319NGSP4R9pTdeQviZmFZ0N/view?usp=share_link',
         ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
       },
       {
-        years: '2021-22',
+        years: '2020-21 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1dY9_-V7LolcTOySU9Acqrn_3wWgAvoK2/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1WB5eh8laJuGq1une6i_6wKzp-DF4GE6I/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 Mid-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1n6k00Er_U3HLiCmk5sxULWuYJJu22nuS/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2019-20 End-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1SF5D4KIHhfIwXwEJqW9rTMGoxLs9F_Pd/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2020-21 End-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1ansZxq0a9Sp1vNlxwNh7OZJVnRMqAk0M/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 End-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1XGbcHBFF-sJHiDkQyp6l6-JR8Ko-9gDR/view?usp=sharing',
         ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
       }
     ];

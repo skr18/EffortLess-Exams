@@ -41,13 +41,7 @@ const columns = [
   ];
   const data = [
    
-    {
-      years: '2019-20',
-      qpaper: 'Computer Programming',
-      answers: 'Solution',
-      links:'https://drive.google.com/file/d/1jHy_ZPpCszRjAYvKV3Mot31gv6lkCqc6/view?usp=share_link',
-      ans:'https://docs.google.com/document/d/1fU84fsuyDpyNTCJszOWREFjz9a5C0dpI1lZhpVU4_Mo/edit?usp=sharing'
-    },
+    
     {
       years: '2020-21',
       qpaper: 'Computer Programming',
