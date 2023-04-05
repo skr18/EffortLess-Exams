@@ -40,17 +40,45 @@ import {
     ];
     const data = [
       {
-        years: '2020-21',
+        years: '2019-20 End Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1f7ptQ9plihYae5ZGnfPXtYPQ3Unmuw2M/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1xpgK5ikXSnyrUHg6iPd0nMQVprtPxTIi/view?usp=share_link',
         ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
       },
       {
-        years: '2021-22',
+        years: '2019-20 Mid Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1dY9_-V7LolcTOySU9Acqrn_3wWgAvoK2/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1VWNmopvfYkc0Vlf4rFTAE6leAwnBiCfA/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2020-21 End Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1be9V6xqhpGByW1f2aQGBBvQyHnE3Q3T1/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+      },
+      {
+        years: '2020-21 Mid Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/19w5n8PcD4-q-EUeC1SfhleRkIzc51K8R/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 End Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1jXzvGBoFobA9gR7Fg_HqJfzWwLwDXg2y/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 Mid Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1FETQIqUSn-sBhQRsaLL36voCdKodxr1C/view?usp=share_link',
         ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
       }
     ];

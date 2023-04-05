@@ -67,7 +67,7 @@ import Math4ece from './Sem4QA/Ece/Math4'
 import Uhvp from './Sem4QA/Ece/Uhvp'
 
 import Eee4th from './Eee4th';
-import Digcir from './Sem4QA/EEE/Digcir4'
+import Digcir4 from './Sem4QA/EEE/Digcir4';
 import Funda4 from './Sem4QA/EEE/Funda4'
 import Mea4 from './Sem4QA/EEE/Mea4'
 import Mech4 from './Sem4QA/EEE/Mech4'
@@ -116,7 +116,7 @@ import Fm from './Sem6QA/Ece/Fm'
 import Iot from './Sem6QA/Ece/Iot'
 import Eee6th from './Eee6th';
 import Eie6th from './Eie6th';
-import Digcir4 from './Sem4QA/EEE/Digcir4';
+
 import Tra4 from './Sem4QA/Eie/Tra4';
 function App() {
 
@@ -149,7 +149,7 @@ function App() {
           <Route path="/cst3rd" element={<Cst3rd/>} />
               <Route path="/bio" element={<Bio/>} />
               <Route path="/de" element={<De/>} />
-              <Route path="/bme" element={<Bme/>} />
+              <Route path="/bme4" element={<Bme4/>} />
               <Route path="/math3" element={<Math3/>}/>
               <Route path="/coa" element={<Coa/>} />
               <Route path="/java" element={<Java/>} />
@@ -163,7 +163,7 @@ function App() {
           <Route path="/eie3rd" element={<Eie3rd/>} />
               <Route path="/signal" element={<Signal/>} />
               <Route path="/analog" element={<Analog/>} />
-              <Route path="/circuit3" element={<Circuit3/>} />
+              <Route path="/circuit3" element={<CircuitTh/>} />
               <Route path="/math3es" element={<Math3es/>}/>
               <Route path="/instrumentation" element={<Instrumentation/>}/>
 
@@ -238,7 +238,7 @@ function App() {
                  <Route path='/fm' element={<Fm />} />
                  <Route path='/iot' element={<Iot />} />
              <Route path="/eee6th" element={<Eee6th/>} />
-             <Route path="/eie6th" element={<Eie6th/>} />
+             <Route path="/eie6th" element={<Eie6th/>} />      
       </Routes>
     </Router>
   );
