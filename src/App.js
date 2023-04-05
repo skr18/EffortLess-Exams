@@ -200,7 +200,7 @@ function App() {
              <Route path="/cst6th" element={<Cst6th/>} />
              <Route path="/ece6th" element={<Ece6th/>} />
              <Route path="/eee6th" element={<Eee6th/>} />
-             <Route path="/eie6th" element={<Eie6th/>} />
+             <Route path="/eie6th" element={<Eie6th/>} />      
       </Routes>
     </Router>
   );
