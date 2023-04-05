@@ -169,7 +169,7 @@ function Cse3rd() {
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                     
-                    <Link to='/bme'>
+                    <Link to='/bme4'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={

@@ -43,43 +43,36 @@ const columns = [
         years: '2021-22 Midterm',
         qpaper: 'Realtime System',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1Fo0VGi4nUG2AexqLlfKPPDmA6T4wiJXu/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/1BhWD0ANZ_7QYI3MA0WlA7dhdjYTM00hauBjSvwWB7ig/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/17W-2UIQSb2c6n9vPfarcMDS_0ZHzygNU/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/1BrBg9vKnNjFDNH23ay6SS9E8zN_-q4xKAiWr7aeOrmM/edit?usp=sharing'
       },
       {
         years: '2022-23 Midterm',
         qpaper: 'Realtime System',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1ePNKv-25HofK6oLGlJRfqT2xtX-_B9ye/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/1y6qvwif24rniu0FcBy_QwJoXQVH68y-QWfde1e8qmz4/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1l97xTWFZ75orPJDgZY9Vh0rtlmc2EnKN/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/1LPUiycivfEmoK5Ok0Yn2BC9t2gxYjhMv7dULU8D-P4A/edit?usp=sharing'
       },
       {
         years: '2022-23 Repeat Midterm',
         qpaper: 'Realtime System',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1n8hvfqkxddLjZ4FlRmdMSjO5v7gVh_L_/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/16ZHJ4GY2_2wmIsUTAg2ZWFPBQRRyN5Ze_r3xjxNZ4gU/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1lSmOSVAav9hD9189HkweHWpZxXdXE4LI/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/18eKB-RBiPhyW5GH37Gq0JxoPw2YiTSo8TRanTd8AnkI/edit?usp=sharing'
       },
-      {
-          years: '2020-21 Endterm',
-          qpaper: 'Realtime System',
-          answers: 'Solution',
-          links:'https://drive.google.com/file/d/1BhU5pojjntxqIUhI26KINf58WZedbRp1/view?usp=sharing',
-          ans:'https://docs.google.com/document/d/1F2qR4XwD0d3Xz0DUuH6XXtPXMuQITX6_-JbFL2d4roQ/edit?usp=sharing'
-        },
         {
           years: '2021-22 Endterm',
           qpaper: 'Realtime System',
           answers: 'Solution',
-          links:'https://drive.google.com/file/d/1XcqUfCUE8iUZTDTKytlXQBdi5Nevol10/view?usp=sharing',
-          ans:'https://docs.google.com/document/d/11Ts0nuOXHYCD8kPUqDKhabgEyWHlQY5KlerlLtoiwc0/edit?usp=sharing'
+          links:'https://drive.google.com/file/d/105rGa_7AQAXwJY03e5rNCzPi0AtfdTpn/view?usp=sharing',
+          ans:'https://docs.google.com/document/d/16TJY9Z0uK5Ndmnutaqk_xvfCOXnQijdTm2ZTSnmuk_o/edit?usp=sharing'
         },
         {
           years: '2022-23 Endterm',
           qpaper: 'Realtime System',
           answers: 'Solution',
-          links:'https://drive.google.com/file/d/1ZcREpVs-AaQk4fn4j508_5Ezwly1hv-_/view?usp=sharing',
-          ans:'https://docs.google.com/document/d/1aIJ-3dEJxXaHlAghULCwnoXW_t435Q11rf1iifj6c9A/edit?usp=sharing'
+          links:'https://drive.google.com/file/d/1wi--XvnBEqG8rVgrqOIyeuXPMP0HsmUn/view?usp=sharing',
+          ans:'https://docs.google.com/document/d/1IDIxBNUtcmD4FhZHnRAEVh3seSlVg10LZ1w9QyarLPo/edit?usp=sharing'
         },
   ];
 

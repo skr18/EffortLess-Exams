@@ -40,13 +40,7 @@ import {
     ];
     const data = [
       
-      {
-        years: '2019-20',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1HkSqIy6cFTp0y3H_H4rC21tPwwH6xi7b/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1fU84fsuyDpyNTCJszOWREFjz9a5C0dpI1lZhpVU4_Mo/edit?usp=sharing'
-      },
+      
       {
         years: '2020-21',
         qpaper: 'Computer Programming',
@@ -65,7 +59,7 @@ import {
         years: '2022-23',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/11GHadU3_-WHb6vTn4sWUUu3tuebut2Gr/view?usp=share_link',
+        links:'https://drive.google.com/file/d/1_Kar6_ArD1I2OgP0AZ9evisj18rL3GL_/view?usp=share_link',
         ans:'https://docs.google.com/document/d/14uGI7FNdUcO5P-tjoSS8lSU7QiMkEVgXTK8RH_MplJ0/edit?usp=sharing'
       },
     ];
@@ -120,10 +114,10 @@ function CircuitTh() {
         background: colorBgContainer,
         }}
     >
-        {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+        {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
         className: 'trigger',
         onClick: () => setCollapsed(!collapsed),
-        })}
+        })} */}
     </Header>
     <Content
         style={{

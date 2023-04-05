@@ -102,7 +102,7 @@ function First() {
                               />
                         </Card>
                     </Link>
-                    {/* <Link to='/sem2' style={{}}>
+                    <Link to='/sem2' style={{}}>
                       <Card
                           style={{ width: 500,backgroundColor:'#030852'}}
                           cover={
@@ -118,7 +118,7 @@ function First() {
                             title=" Sem 2 "
                             />
                       </Card>
-                    </Link> */}
+                    </Link>
                   </div>                
                 </div>
 

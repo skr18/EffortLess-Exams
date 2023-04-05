@@ -29,7 +29,7 @@ const columns = [
       title: 'Question Paper',
       dataIndex: 'links',
       key: 'Question Paper',
-      render: (data) => <a href={data}>Basics of Mechanical Engeering  Mid-Term</a>,
+      render: (data) => <a href={data}>Basics of Mechanical Engeering </a>,
     },
     {
       title: 'Answers',
@@ -40,13 +40,7 @@ const columns = [
   ];
   const data = [
    
-    {
-      years: '2019-20',
-      qpaper: 'Computer Programming',
-      answers: 'Solution',
-      links:'https://drive.google.com/file/d/1QNBZi8IQwog5igXKj8TPWYr9495EvNZv/view?usp=share_link',
-      ans:'https://docs.google.com/document/d/1fU84fsuyDpyNTCJszOWREFjz9a5C0dpI1lZhpVU4_Mo/edit?usp=sharing'
-    },
+    
     {
       years: '2020-21',
       qpaper: 'Computer Programming',

@@ -20,19 +20,19 @@ const { Header, Sider, Content } = Layout;
 
 const columns = [
     {
-      title: 'Years',
+      title: 'Paper',
       dataIndex: 'years',
       key: 'Years',
     //   render: (text) => <>{text}</>,
     },
     {
-      title: 'Question Paper',
+      title: 'Course Handout',
       dataIndex: 'links',
       key: 'Question Paper',
-      render: (data) => <a href={data}>Important Questions</a>,
+      render: (data) => <a href={data}>Course</a>,
     },
     {
-      title: 'Answers',
+      title: 'Important Questions and Answers',
       dataIndex: 'ans',
       key: 'Answers',
       render: (text) => <a href={text} >Solution</a>,
@@ -40,11 +40,11 @@ const columns = [
   ];
   const data = [
     {
-        years: 'DUMMY',
+        years: 'UHVPE',
         qpaper: 'IMP',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1Fo0VGi4nUG2AexqLlfKPPDmA6T4wiJXu/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/1BhWD0ANZ_7QYI3MA0WlA7dhdjYTM00hauBjSvwWB7ig/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1dnznigRVaBXX4APES8yXgQfWOMCa3uEm/view?usp=sharing',
+        ans:'https://drive.google.com/file/d/1yAtEyhyJTw2BylSrcbZFPAoi1uEw8ESF/view?usp=sharing'
       },
   ];
 

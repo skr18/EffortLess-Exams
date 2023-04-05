@@ -29,7 +29,7 @@ const columns = [
       title: 'Question Paper',
       dataIndex: 'links',
       key: 'Question Paper',
-      render: (data) => <a href={data}>Math3 ES</a>,
+      render: (data) => <a href={data}>Math3 ES Mid-Term</a>,
     },
     {
       title: 'Answers',
@@ -39,25 +39,27 @@ const columns = [
     },
   ];
   const data = [
-    {
-      years: '2018-19',
-      qpaper: 'Computer Programming',
-      answers: 'Solution',
-      links:'https://drive.google.com/file/d/17pEaqoHTj2QNPr7cO4AVVl_rNg3wW_dZ/view?usp=sharing',
-      ans:'https://docs.google.com/document/d/1o1mRoNVm5rAIg0J15eZHW7rbpdUcP-xVktL7KG7dLNQ/edit?usp=sharing'
-    },
-    {
-      years: '2019-20',
-      qpaper: 'Computer Programming',
-      answers: 'Solution',
-      links:'https://drive.google.com/file/d/1MA-dyIlV4D0y6qYuUwfpSUCDr1Frzi2U/view?usp=sharing',
-      ans:'https://docs.google.com/document/d/1fU84fsuyDpyNTCJszOWREFjz9a5C0dpI1lZhpVU4_Mo/edit?usp=sharing'
-    },
+    
+    
     {
       years: '2020-21',
       qpaper: 'Computer Programming',
       answers: 'Solution',
-      links:'https://drive.google.com/file/d/1peNskG6NsUWw_R9_BuEMK8SS6ER8qKdl/view?usp=sharing',
+      links:'https://drive.google.com/file/d/13aPehoUyXxP1V0WQCjgM6qjXhWUFaTrO/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/14uGI7FNdUcO5P-tjoSS8lSU7QiMkEVgXTK8RH_MplJ0/edit?usp=sharing'
+    },
+    {
+      years: '2021-22',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1F1rNgHqzmjZLtdFNqoEXaXrXzvP8xQmQ/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1fU84fsuyDpyNTCJszOWREFjz9a5C0dpI1lZhpVU4_Mo/edit?usp=sharing'
+    },
+    {
+      years: '2022-23',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1ualpADuZGR8CUygohUt8gN0IQDBir3bc/view?usp=share_link',
       ans:'https://docs.google.com/document/d/14uGI7FNdUcO5P-tjoSS8lSU7QiMkEVgXTK8RH_MplJ0/edit?usp=sharing'
     },
   ];
@@ -112,10 +114,10 @@ function Math3es() {
         background: colorBgContainer,
         }}
     >
-        {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+        {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
         className: 'trigger',
         onClick: () => setCollapsed(!collapsed),
-        })}
+        })} */}
     </Header>
     <Content
         style={{
