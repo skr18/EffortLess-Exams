@@ -39,19 +39,18 @@ const columns = [
     },
   ];
   const data = [
-    // {
-    //   years: '2018-19',
-    //   qpaper: 'Engineering Mathematics-I',
-    //   answers: 'Solution',
-    //   links:'https://drive.google.com/file/d/1A90f-7lPNkA4qmqa32Z2QxtaIM3Hobd2/view?usp=sharing',
-    //   ans:'https://docs.google.com/document/d/176mvJPTU-Q1c2RitJ5Y5WVDlGTO0iLqWF-WBnE1oHss/edit?usp=sharing'
-
-    // },
     {
       years: '2019-20',
       qpaper: 'Engineering Mathematics-I',
       answers: 'Solution',
       links:'https://drive.google.com/file/d/1xBKCvx528QoMUfAtT0Bz1lu-nOnBh3nZ/view?usp=sharing',
+      ans:'https://docs.google.com/document/d/1H0p5ZzXghgscZqsh3WusuNl_Ccs7I5NNt-A10lAep4E/edit?usp=sharing'
+    },
+    {
+      years: '2019-20 Mid Term',
+      qpaper: 'Engineering Mathematics-I',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1JSZYCPX0gFT7GCxVv_2ldR-NO2k3UkuJ/view?usp=share_link',
       ans:'https://docs.google.com/document/d/1H0p5ZzXghgscZqsh3WusuNl_Ccs7I5NNt-A10lAep4E/edit?usp=sharing'
     },
     {
@@ -62,10 +61,24 @@ const columns = [
       ans:'https://docs.google.com/document/d/1Wnw7Hidyoy-Q3U9dawl-8o7uMOGV-RaPaxeR9IWnbOc/edit?usp=sharing'
     },
     {
-      years: '2021-22(Back)',
+      years: '2021-22',
       qpaper: 'Engineering Mathematics-I',
       answers: 'Solution',
-      links:'https://drive.google.com/file/d/14wtosCFIADePrPbiKCtI3NPDnhuM8lwA/view?usp=sharing',
+      links:'https://drive.google.com/file/d/1oJm3EApuoYuXq8fia-wbie1lo4WeUpoO/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1EpIZ8xHg5VflwroprtNOKuhLvd4Em3zywhU3SwUW4q4/edit?usp=sharing'
+    },
+    {
+      years: '2021-22 Mid Term',
+      qpaper: 'Engineering Mathematics-I',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1btR15czb9Unu3LZVw9Td7_oerpNdS0eS/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1EpIZ8xHg5VflwroprtNOKuhLvd4Em3zywhU3SwUW4q4/edit?usp=sharing'
+    },
+    {
+      years: '2022-23 Mid Term',
+      qpaper: 'Engineering Mathematics-I',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1ajU1ElGD8t70vm1m3V0tZq9g8T0M6gIq/view?usp=share_link',
       ans:'https://docs.google.com/document/d/1EpIZ8xHg5VflwroprtNOKuhLvd4Em3zywhU3SwUW4q4/edit?usp=sharing'
     }
   ];

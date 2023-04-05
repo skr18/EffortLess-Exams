@@ -111,11 +111,11 @@ function Instrumentation() {
         background: colorBgContainer,
         }}
     >
-        {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+        {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
         className: 'trigger',
         onClick: () => setCollapsed(!collapsed),
         }
-        )}
+        )} */}
     </Header>
     <Content
         style={{

@@ -47,6 +47,13 @@ const columns = [
       ans:'https://docs.google.com/document/d/1NrMO8ByQZjd-EsnJJz0ni1EkAeL9ITPYdryMgzYx7t4/edit?usp=sharing'
     },
     {
+      years: '2019-20 Mid Term',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1VvLIkfz_BlrYEJZw28_nbIeiKcalDY32/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1i0KH6D2GywCJSl85Ho8X05KYcykCbghP9ejMber6h-A/edit?usp=sharing'
+    },
+    {
       years: '2020-21',
       qpaper: 'Computer Programming',
       answers: 'Solution',
@@ -54,11 +61,25 @@ const columns = [
       ans:'https://docs.google.com/document/d/1DeAkJ4X2YK2VBzfcvnlv7lYo_B1e0sOx6cMQeFfyha8/edit?usp=sharing'
     },
     {
+      years: '2020-21 Mid Term',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1PD1X6TJnN1g3_qnCUdDDr96z7TJ_vr95/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1UuEgohPFKWy63a-XZVyUoC68tqMTLKjaWXy2qqxHaE4/edit?usp=sharing'
+    },
+    {
       years: '2021-22',
       qpaper: 'Computer Programming',
       answers: 'Solution',
       links:'https://drive.google.com/file/d/19W6Mak1fvpzeiWhfJu5w8iMmH8iJC95o/view?usp=sharing',
       ans:'https://docs.google.com/document/d/1EQtPGSRDcQPtqMKUuFljds9EK1UB4g-wtMaD1mnuAzU/edit?usp=sharing'
+    },
+    {
+      years: '2021-22 Mid Term',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1Pt5HYtnjSehbeTFSThZQrLbmMn0aTdND/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1Qij9X4nYrkEckPzW3ewbYh1rNQH-hPbl58p9EKLxmtg/edit?usp=sharing'
     },
   ];
 

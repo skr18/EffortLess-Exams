@@ -47,10 +47,24 @@ const columns = [
       ans:'https://docs.google.com/document/d/1YlEARjpAigN9BuaqaUYzqUI2rIZHkjQA1hDLBcxDeGc/edit?usp=sharing'
     },
     {
+      years: '2019-20 Mid Term',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1LmzWRYbb1cVSFYGK1-c32im6k1k1QJBl/view?usp=share_link',
+      ans:'https://docs.google.com/document/d/1YlEARjpAigN9BuaqaUYzqUI2rIZHkjQA1hDLBcxDeGc/edit?usp=sharing'
+    },
+    {
       years: '2020-21',
       qpaper: 'Computer Programming',
       answers: 'Solution',
       links:'https://drive.google.com/file/d/1Zw-G9cOFXPqFAWWr1qfCu6KZwMwA3qSf/view?usp=sharing',
+      ans:'https://docs.google.com/document/d/17gnHqwR-L-o5Zu9YHAa0NEhg62na9ul-tNGEPEesxTM/edit?usp=sharing'
+    },
+    {
+      years: '2020-21 Mid Term',
+      qpaper: 'Computer Programming',
+      answers: 'Solution',
+      links:'https://drive.google.com/file/d/1qTZuTtyfpBWdTEw01kd6rrvLL64bh8Iq/view?usp=share_link',
       ans:'https://docs.google.com/document/d/17gnHqwR-L-o5Zu9YHAa0NEhg62na9ul-tNGEPEesxTM/edit?usp=sharing'
     },
     {

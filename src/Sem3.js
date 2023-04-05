@@ -172,7 +172,7 @@ function Sem3() {
                               />
                             }
                             >
-                        >
+                        
                             <Meta
                             // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                             title=" EIE "

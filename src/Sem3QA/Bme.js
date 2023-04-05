@@ -29,7 +29,7 @@ const columns = [
       title: 'Question Paper',
       dataIndex: 'links',
       key: 'Question Paper',
-      render: (data) => <a href={data}>Basics of Mechanical Engeering  Mid-Term</a>,
+      render: (data) => <a href={data}>Basics of Mechanical Engeering </a>,
     },
     {
       title: 'Answers',
