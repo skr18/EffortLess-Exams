@@ -87,15 +87,33 @@ import Ml from './Sem5QA/Ml'
 import Uhvpe from './Sem5QA/Uhvpe'
 import Rs from './Sem5QA/Rs'
 import Ece5th from './Ece5th';
+import Mm from './Sem5QA/Ece/Mm'
+import Bi from './Sem5QA/Ece/Bi'
+import Dc from './Sem5QA/Ece/Dc'
+import Emw from './Sem5QA/Ece/Emw'
+import Fd from './Sem5QA/Ece/Fd'
+import Sct from './Sem5QA/Ece/Sct'
 import Eee5th from './Eee5th';
+import Ce from './Sem5QA/Eee/Ce'
+import Eptd from './Sem5QA/Eee/Eptd'
+import Idsp from './Sem5QA/Eee/Idsp'
+import Pe from './Sem5QA/Eee/Pe'
 import Eie5th from './Eie5th';
+import Dvd from './Sem5QA/Eie/Dvd'
+import Dsp from './Sem5QA/Eie/Dsp'
 
 
 import Sem6 from './Sem6';
 import Cse6th from './Cse6th';
 import Cst6th from './Cst6th';
-
+import Cc from './Sem6QA/cs/Cc'
+import Cd from './Sem6QA/cs/Cd'
+import Nlp from './Sem6QA/cs/Nlp'
+import Se from './Sem6QA/cs/Se'
+import Me from './Sem6QA/cs/Me'
 import Ece6th from './Ece6th';
+import Fm from './Sem6QA/Ece/Fm'
+import Iot from './Sem6QA/Ece/Iot'
 import Eee6th from './Eee6th';
 import Eie6th from './Eie6th';
 import Digcir4 from './Sem4QA/EEE/Digcir4';
@@ -192,13 +210,33 @@ function App() {
                  <Route path='/Rs' element={<Rs />} />
                  <Route path='/Uhvpe' element={<Uhvpe />} />
              <Route path="/ece5th" element={<Ece5th/>} />
+                 <Route path='/Bi' element={<Bi />} />
+                 <Route path='/Dc' element={<Dc />} />
+                 <Route path='/Emw' element={<Emw />} />
+                 <Route path='/Fd' element={<Fd />} />
+                 <Route path='/Mm' element={<Mm />} />
+                 <Route path='/Sct' element={<Sct />} />
              <Route path="/eee5th" element={<Eee5th/>} />
+                 <Route path='/Ce' element={<Ce />} />
+                 <Route path='/Eptd' element={<Eptd />} />
+                 <Route path='/Idsp' element={<Idsp />} />
+                 <Route path='/Pe' element={<Pe />} />
              <Route path="/eie5th" element={<Eie5th/>} />
+                 <Route path='/dvd' element={<Dvd />} />
+                 <Route path='/dsp' element={<Dsp />} />
+
           
           <Route path="/sem6" element={<Sem6/>} />
              <Route path="/cse6th" element={<Cse6th/>} />
              <Route path="/cst6th" element={<Cst6th/>} />
+                 <Route path='/cc' element={<Cc />} />
+                 <Route path='/cd' element={<Cd />} />
+                 <Route path='/Nlp' element={<Nlp />} />
+                 <Route path='/se' element={<Se />} />
+                 <Route path='/me' element={<Me />} />
              <Route path="/ece6th" element={<Ece6th/>} />
+                 <Route path='/fm' element={<Fm />} />
+                 <Route path='/iot' element={<Iot />} />
              <Route path="/eee6th" element={<Eee6th/>} />
              <Route path="/eie6th" element={<Eie6th/>} />
       </Routes>

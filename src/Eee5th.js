@@ -87,7 +87,7 @@ function Eee5th() {
              <div style={{display:'flex',justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
                 <div className='even' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
 
-                    <Link to='/ee'>
+                    <Link to='/eco'>
                         <Card
                             style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={

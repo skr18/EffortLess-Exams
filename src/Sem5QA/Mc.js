@@ -40,46 +40,39 @@ const columns = [
   ];
   const data = [
     {
-        years: '2021-22 Midterm',
-        qpaper: 'Mobile Computing',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1Fo0VGi4nUG2AexqLlfKPPDmA6T4wiJXu/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/1BhWD0ANZ_7QYI3MA0WlA7dhdjYTM00hauBjSvwWB7ig/edit?usp=sharing'
-      },
-      {
         years: '2022-23 Midterm',
         qpaper: 'Mobile Computing',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1ePNKv-25HofK6oLGlJRfqT2xtX-_B9ye/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/1y6qvwif24rniu0FcBy_QwJoXQVH68y-QWfde1e8qmz4/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1GwLm0F_-65uQ3wGeD29jUwf6FiLCB3ax/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/1zmQXizZOEnapjm7hwfrsNE0N5TfouRaYTvXVBtVkY0Q/edit?usp=sharing'
       },
       {
-        years: '2022-23 Repeat Midterm',
+        years: '2022-23 Back Midterm',
         qpaper: 'Mobile Computing',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1n8hvfqkxddLjZ4FlRmdMSjO5v7gVh_L_/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/16ZHJ4GY2_2wmIsUTAg2ZWFPBQRRyN5Ze_r3xjxNZ4gU/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1ulNv_PYniTYlCgEdsvYuLaCMrkslg3U4/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/1phABAaxdwPXNe74mIKH6zFRGmGhzz0wj8KsK-LjzgUg/edit?usp=sharing'
       },
       {
           years: '2020-21 Endterm',
           qpaper: 'Mobile Computing',
           answers: 'Solution',
-          links:'https://drive.google.com/file/d/1BhU5pojjntxqIUhI26KINf58WZedbRp1/view?usp=sharing',
-          ans:'https://docs.google.com/document/d/1F2qR4XwD0d3Xz0DUuH6XXtPXMuQITX6_-JbFL2d4roQ/edit?usp=sharing'
+          links:'https://drive.google.com/file/d/1W_Ypc08as_qYoBUNib7AdWbv9SjQUUyH/view?usp=sharing',
+          ans:'https://docs.google.com/document/d/1cMMmy5TBNv_YxKkN3dky2z2vAwyTUjfGTb0dYSdDwrc/edit?usp=sharing'
         },
         {
           years: '2021-22 Endterm',
           qpaper: 'Mobile Computing',
           answers: 'Solution',
-          links:'https://drive.google.com/file/d/1XcqUfCUE8iUZTDTKytlXQBdi5Nevol10/view?usp=sharing',
-          ans:'https://docs.google.com/document/d/11Ts0nuOXHYCD8kPUqDKhabgEyWHlQY5KlerlLtoiwc0/edit?usp=sharing'
+          links:'https://drive.google.com/file/d/1xTAD9N7THgHZZUPTabX8zpwmEO_lHP7q/view?usp=sharing',
+          ans:'https://docs.google.com/document/d/1E-i9-jZ6TBErbyJx9SHuHQsLCye3R_AayUqcHNzPQFk/edit?usp=sharing'
         },
         {
           years: '2022-23 Endterm',
           qpaper: 'Mobile Computing',
           answers: 'Solution',
-          links:'https://drive.google.com/file/d/1ZcREpVs-AaQk4fn4j508_5Ezwly1hv-_/view?usp=sharing',
-          ans:'https://docs.google.com/document/d/1aIJ-3dEJxXaHlAghULCwnoXW_t435Q11rf1iifj6c9A/edit?usp=sharing'
+          links:'https://drive.google.com/file/d/1tBWp0N4ogix0_mPYvj4_16XIjemDeNE4/view?usp=sharing',
+          ans:'https://docs.google.com/document/d/1C0_R7JErDX1qNYyfVcc2Zo2qwuoL1Rpfl-AqKtkZfxA/edit?usp=sharing'
         },
   ];
 
