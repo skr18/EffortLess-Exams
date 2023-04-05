@@ -29,7 +29,7 @@ const columns = [
       title: 'Question Paper',
       dataIndex: 'links',
       key: 'Question Paper',
-      render: (data) => <a href={data}>Circuit and Signal</a>,
+      render: (data) => <a href={data}>Circuit Theory</a>,
     },
     {
       title: 'Answers',

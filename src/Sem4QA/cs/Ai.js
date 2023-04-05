@@ -29,7 +29,7 @@ import {
         title: 'Question Paper',
         dataIndex: 'links',
         key: 'Question Paper',
-        render: (data) => <a href={data}>Artificial Intilligence</a>,
+        render: (data) => <a href={data}>Artificial Intilligence </a>,
       },
       {
         title: 'Answers',
@@ -40,19 +40,34 @@ import {
     ];
     const data = [
       {
-        years: '2020-21',
+        years: '2020-21 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1f7ptQ9plihYae5ZGnfPXtYPQ3Unmuw2M/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1MC-H9US4SeuTRroH9AypncKEVyFk4dXv/view?usp=share_link',
         ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
       },
       {
-        years: '2021-22',
+        years: '2021-22 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1dY9_-V7LolcTOySU9Acqrn_3wWgAvoK2/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1t_7VRCf5uQG1Hqpg2r0eUO4_0JKkygdL/view?usp=share_link',
         ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
-      }
+      },
+      {
+        years: '2020-21 End-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1-K3BjFuqvSI8uLlrfOY6lFFpqiF5Hxvk/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 End-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1DDUy4x7lWddTDrYsrmn4ba6qWVb8Wfba/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+     
     ];
 
 function Ai() {

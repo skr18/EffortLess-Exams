@@ -145,7 +145,7 @@ function App() {
           <Route path="/eie3rd" element={<Eie3rd/>} />
               <Route path="/signal" element={<Signal/>} />
               <Route path="/analog" element={<Analog/>} />
-              <Route path="/circuit3" element={<Circuit3/>} />
+              <Route path="/circuit3" element={<CircuitTh/>} />
               <Route path="/math3es" element={<Math3es/>}/>
               <Route path="/instrumentation" element={<Instrumentation/>}/>
 

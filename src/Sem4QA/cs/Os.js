@@ -40,17 +40,24 @@ import {
     ];
     const data = [
       {
-        years: '2020-21',
+        years: '2021-22 Repeat',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1f7ptQ9plihYae5ZGnfPXtYPQ3Unmuw2M/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1mDmGlxQmMmr6MyZnf3SUvmP9eXVSq5BN/view?usp=share_link',
         ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
       },
       {
-        years: '2021-22',
+        years: '2021-22 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1dY9_-V7LolcTOySU9Acqrn_3wWgAvoK2/view?usp=sharing',
+        links:'https://drive.google.com/file/d/1mnNcWz6Fe1m3uEd2YALYhYoS6PRx-9EW/view?usp=share_link',
+        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 End-Term',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/12tbapbwCAaDnLRFvyMR2jMANXmxTroJJ/view?usp=share_link',
         ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
       }
     ];
