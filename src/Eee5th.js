@@ -12,6 +12,13 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import ECOimage from './Images/ECO.png'
+import PEimage from './Images/power.png'
+import CSEimage from './Images/CONTROL SYSTEM ENGINNERING.png'
+import DSPimage from './Images/DIGITAL SIGNAL PROCESSING.png'
+import SCimage from './Images/Soft Computing.png'
+import DBMSimage from './Images/DBMS.gif'
+import EPTDimage from './Images/EPTD.png'
 
 import { useState } from 'react';
 
@@ -93,7 +100,7 @@ function Eee5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={ECOimage}
                                 style={{height:220}}
                                 />
                             }
@@ -112,7 +119,7 @@ function Eee5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={PEimage}
                             style={{height:220}}
                         />
                     }
@@ -131,7 +138,7 @@ function Eee5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={CSEimage}
                             style={{height:220}}
                         />
                         }
@@ -149,7 +156,7 @@ function Eee5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={EPTDimage}
                             style={{height:220}}
                             />
                         }
@@ -169,7 +176,7 @@ function Eee5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DSPimage}
                             style={{height:220}}
                         />
                         }
@@ -187,7 +194,7 @@ function Eee5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={SCimage}
                             style={{height:220}}
                         />
                         }
@@ -207,7 +214,7 @@ function Eee5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DBMSimage}
                                 style={{height:220}}
                             />
                             }

@@ -12,6 +12,9 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import VLSIimage from './Images/vlsi.gif'
+import UHVPEimage from './Images/UHVPE.png'
+import DSPimage from './Images/DIGITAL SIGNAL PROCESSING.png'
 
 import { useState } from 'react';
 
@@ -93,7 +96,7 @@ function Eie5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DSPimage}
                                 style={{height:220}}
                                 />
                             }
@@ -112,7 +115,7 @@ function Eie5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={VLSIimage}
                             style={{height:220}}
                         />
                     }
@@ -131,7 +134,7 @@ function Eie5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={UHVPEimage}
                             style={{height:220}}
                         />
                         }
