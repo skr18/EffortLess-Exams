@@ -12,6 +12,11 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import BIOimage from './Images/BIO.gif'
+import FOMimage from './Images/FUNDAMENTAL OF MANAGEMENT.png'
+import DSPimage from './Images/DIGITAL SIGNAL PROCESSING.png'
+import VLSIimage from './Images/vlsi.gif'
+import FMMimage from './Images/FMM.png'
 
 import { useState } from 'react';
 
@@ -93,7 +98,7 @@ function Eee6th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={BIOimage}
                                 style={{height:220}}
                                 />
                             }
@@ -112,7 +117,7 @@ function Eee6th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={FOMimage}
                             style={{height:220}}
                         />
                     }
@@ -131,7 +136,7 @@ function Eee6th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={FMMimage}
                             style={{height:220}}
                         />
                         }
@@ -149,7 +154,7 @@ function Eee6th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={VLSIimage}
                             style={{height:220}}
                             />
                         }
@@ -169,7 +174,7 @@ function Eee6th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DSPimage}
                             style={{height:220}}
                         />
                         }

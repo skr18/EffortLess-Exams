@@ -12,6 +12,14 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import CNimage from './Images/Computer Networks.gif'
+import FLATimage from './Images/Flat.gif'
+import MLimage from './Images/Ml.png'
+import UHVPEimage from './Images/UHVPE.png'
+import MCimage from './Images/Mobile computing.gif'
+import RSimage from './Images/REaltime system.png'
+import DMDWimage from './Images/DM.png'
+
 
 import { useState } from 'react';
 
@@ -93,7 +101,7 @@ function Cse5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={CNimage}
                                 style={{height:220}}
                                 />
                             }
@@ -112,7 +120,7 @@ function Cse5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={FLATimage}
                             style={{height:220}}
                         />
                     }
@@ -131,7 +139,7 @@ function Cse5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MLimage}
                             style={{height:220}}
                         />
                         }
@@ -149,7 +157,7 @@ function Cse5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={UHVPEimage}
                             style={{height:220}}
                             />
                         }
@@ -169,7 +177,7 @@ function Cse5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MCimage}
                             style={{height:220}}
                         />
                         }
@@ -187,7 +195,7 @@ function Cse5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={RSimage}
                             style={{height:220}}
                         />
                         }
@@ -207,7 +215,7 @@ function Cse5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DMDWimage}
                                 style={{height:220}}
                             />
                             }

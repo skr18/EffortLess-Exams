@@ -12,6 +12,12 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import MEimage from './Images/ME.png'
+import SEimage from './Images/SE.png'
+import MLimage from './Images/Ml.png'
+import AIimage from './Images/AI.png'
+import NLPimage from './Images/NLP.gif'
+import CCimage from './Images/CLOUD.png'
 
 import { useState } from 'react';
 
@@ -93,7 +99,7 @@ function Cst6th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={MEimage}
                                 style={{height:220}}
                                 />
                             }
@@ -112,7 +118,7 @@ function Cst6th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={SEimage}
                             style={{height:220}}
                         />
                     }
@@ -131,7 +137,7 @@ function Cst6th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MLimage}
                             style={{height:220}}
                         />
                         }
@@ -149,7 +155,7 @@ function Cst6th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={AIimage}
                             style={{height:220}}
                             />
                         }
@@ -169,7 +175,7 @@ function Cst6th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={NLPimage}
                             style={{height:220}}
                         />
                         }
@@ -187,7 +193,7 @@ function Cst6th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={CCimage}
                             style={{height:220}}
                         />
                         }

@@ -11,6 +11,13 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import ECOimage from './Images/ECO.png'
+import MMimage from './Images/MM.gif'
+import EMWimage from './Images/EMW.gif'
+import DCimage from './Images/DIGITAL.png'
+import BIimage from './Images/basics of instrumentation.png'
+import SCimage from './Images/Soft Computing.png'
+import DBMSimage from './Images/DBMS.gif'
 
 import { useState } from 'react';
 
@@ -92,7 +99,7 @@ function Ece5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={ECOimage}
                                 style={{height:220}}
                                 />
                             }
@@ -111,7 +118,7 @@ function Ece5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={MMimage}
                             style={{height:220}}
                         />
                     }
@@ -130,7 +137,7 @@ function Ece5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={EMWimage}
                             style={{height:220}}
                         />
                         }
@@ -148,7 +155,7 @@ function Ece5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={DCimage}
                             style={{height:220}}
                             />
                         }
@@ -168,7 +175,7 @@ function Ece5th() {
                         cover={
                             <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={BIimage}
                             style={{height:220}}
                         />
                         }
@@ -186,7 +193,7 @@ function Ece5th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={SCimage}
                             style={{height:220}}
                         />
                         }
@@ -206,7 +213,7 @@ function Ece5th() {
                             cover={
                                 <img
                                 alt="example"
-                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                src={DBMSimage}
                                 style={{height:220}}
                             />
                             }
