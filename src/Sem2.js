@@ -117,12 +117,12 @@ function Sem2() {
                     
                     <Link to='/dsa'>
                         <Card
-                            style={{ width: 500,backgroundColor:'#030852'}}
+                            style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                             cover={
                                 <img
                                 alt="example"
                                 src={DSAimage}
-                                style={{height:220}}
+                                style={{height:300}}
                                 />
                             }
                             >
@@ -141,7 +141,7 @@ function Sem2() {
                             <img
                             alt="example"
                             src={CTEimage}
-                            style={{height:220}}
+                            style={{height:300}}
                         />
                         }
                         >
