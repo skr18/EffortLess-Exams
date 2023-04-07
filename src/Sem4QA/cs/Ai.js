@@ -7,11 +7,14 @@ import {
     UploadOutlined,
     UserOutlined,
     VideoCameraOutlined,
-    FireTwoTone
+    FireTwoTone,
+    YoutubeOutlined,
+    FilePdfFilled,
+    GoogleCircleFilled
   } from '@ant-design/icons';
   import Logo from '../../Images/LOGO2 (2).gif'
   import { Link} from "react-router-dom";
-  import { Layout, Menu, theme } from 'antd';
+  import { Layout, Menu, theme,Divider,Tag } from 'antd';
   import { useState } from 'react';
   import {  Table } from 'antd';
   
@@ -134,6 +137,44 @@ function Ai() {
     >
         <Table columns={columns} dataSource={data} />
         {/* <Table columns={columns} dataSource={data} /> */}
+        <Divider orientation="left">Important Notes and Lectures Links</Divider>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1Vng02g6wTk2uA45YRl001cHdeGnuVRWW/view?usp=sharing">AI Midterm</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/qul0f79gxGs">BFS Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/qul0f79gxGs">BFS Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/f8luGFRtshY">DFS Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/FbI1lCNNxP8">Uniform Cost Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/EHwPE5IDXlQ">Iterative Deepening Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/rEema9uQ02c">Bidirectional Search</a>
+        </Tag>
+        
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/7ffDUDjwz5E">Best First Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/tvAh0JZF2YE">A* Search</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/vA1Bz8sII1c">Map Coloring Problem</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/S7L4-KDTvEE">MiniMax Algorithm</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<GoogleCircleFilled />} color="#6d4d97">
+          <a href="https://www.novelgames.com/en/missionaries/">Missionaries & Cannibals Game</a>
+        </Tag>
     </Content>
     </Layout>
     </Layout>

@@ -7,11 +7,13 @@ import {
     UploadOutlined,
     UserOutlined,
     VideoCameraOutlined,
-    FireTwoTone
+    FireTwoTone,
+    YoutubeOutlined,
+    FilePdfFilled
   } from '@ant-design/icons';
   import Logo from '../../Images/LOGO2 (2).gif'
   import { Link} from "react-router-dom";
-  import { Layout, Menu, theme } from 'antd';
+  import { Layout, Menu, theme, Tag, Divider } from 'antd';
   import { useState } from 'react';
   import {  Table } from 'antd';
   
@@ -147,6 +149,28 @@ function Economics() {
     >
         <Table columns={columns} dataSource={data} />
         {/* <Table columns={columns} dataSource={data} /> */}
+        <Divider orientation="left">Important Notes and Lectures Links</Divider>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1V-hUsUIo4TAJp2rzXRKftJQS6oGuobCc/view?usp=sharing">Module 1 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1Aic73xJsQeRNwUHns4wOwSZD2ajjHk0W/view?usp=sharing">Module 2 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1R1vlmbqmrn94SzgUxLHpOo6XBY2zVGAd/view?usp=sharing">Module 3 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1ppFBEWYJVOKA_KMCqeWTWG1JC88oRVYE/view?usp=sharing">Module 4 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1SNRnqlumKk2oHFmkYGjW7WYVdcOmXE8y/view?usp=sharing">Module 5 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://docs.google.com/document/d/1IOmWbSED_4ln0A3cYXTtT7-1ag4jEyMf/edit?usp=sharing&ouid=102266952943654832746&rtpof=true&sd=true">Midsem Importants</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1ZHnFp-c1LpMsYVVida3NtlFXCPnvn7MV/view?usp=sharing">Problem Set</a>
+        </Tag>
     </Content>
     </Layout>
     </Layout>
