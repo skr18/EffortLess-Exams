@@ -7,11 +7,13 @@ import {
     UploadOutlined,
     UserOutlined,
     VideoCameraOutlined,
-    FireTwoTone
+    FireTwoTone,
+    YoutubeOutlined,
+    FilePdfFilled
   } from '@ant-design/icons';
   import Logo from '../../Images/LOGO2 (2).gif'
   import { Link} from "react-router-dom";
-  import { Layout, Menu, theme } from 'antd';
+  import { Layout, Menu, theme,Divider,Tag } from 'antd';
   import { useState } from 'react';
   import {  Table } from 'antd';
   
@@ -147,6 +149,46 @@ function Dbms() {
     >
         <Table columns={columns} dataSource={data} />
         {/* <Table columns={columns} dataSource={data} /> */}
+        <Divider orientation="left">Important Notes and Lectures Links</Divider>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/5fs1ldO6B5c">3-tier Architecture</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/wOD02sezmX8">Basic ER</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/n3mHfQft5P8">Concept of ER</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/l9BRmq7pgZ8">Example of ER-1</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/BexmtjyRp6I">Example of ER-2</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/7LRH7DY1QbQ">Mapping ER to Relational</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/76v3gRns28U">Relational Algebra</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/SnsrohgiPo0">Tuple Calculus</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/wtAuIBxd3Bw">Domain Calculus</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/LsRagOpaXEg">Joins in SQL</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="https://youtu.be/LJngZH1eeOU">Query Optimization</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1iX-Z9-SsQIrwb8ogJyiGlwA80qxgH6iH/view?usp=sharing">DBMS Mod-1 and Mod-2</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1v66bg5opM6ZMyQjwMVTE4vZNyzyTHR4-/view?usp=sharing">DBMS Handwritten Mod-1 and Mod-2</a>
+        </Tag>
     </Content>
     </Layout>
     </Layout>

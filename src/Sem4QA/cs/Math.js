@@ -7,13 +7,16 @@ import {
     UploadOutlined,
     UserOutlined,
     VideoCameraOutlined,
-    FireTwoTone
+    FireTwoTone,
+    YoutubeOutlined,
+    FilePdfFilled
   } from '@ant-design/icons';
   import Logo from '../../Images/LOGO2 (2).gif'
   import { Link} from "react-router-dom";
-  import { Layout, Menu, theme } from 'antd';
+  import { Layout, Menu, theme, Divider, Tag } from 'antd';
   import { useState } from 'react';
   import {  Table } from 'antd';
+
   
   const { Header, Sider, Content } = Layout;
   // const { Meta } = Card;
@@ -85,6 +88,7 @@ import {
       },
     ];
 
+
 function Math() {
     const [collapsed, setCollapsed] = useState(false);
     const {
@@ -149,6 +153,39 @@ function Math() {
     >
         <Table columns={columns} dataSource={data} />
         {/* <Table columns={columns} dataSource={data} /> */}
+        {/* Content here */}
+        <Divider orientation="left">Important Notes and Lectures Links</Divider>
+        {/* <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
+          <a href="">Answers</a>
+        </Tag><br /> */}
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1Sq8N4A03sfry_dholqGFSruJ3_mFjifD/view?usp=sharing">Module 1 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/18Jd8QXQQZ50Ql38yp4qE0lQmqUJ61uQv/view?usp=sharing">Module 2 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1rUsYBS4uUh8ubdf5pUmfFGjiVWQoajKW/view?usp=sharing">Module 3 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1dhDLCXUVWZQ0BcbPx8uolQ3WMsp5Rh9I/view?usp=sharing">Module 4 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/11BubATUv-kYi_OIGrva60w9sWEO8xJM0/view?usp=sharing">Module 5 Part-1 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1ySnUI_nXHNAKf8AKsxnnL-ZdieVNJnuH/view?usp=share_link">Module 5 Part-2 Notes</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1CY-lhh4QSBcbQFKr-hkkMUc2hBWm9IFF/view?usp=share_link">Module 3,4 and 5 Combined</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1lxX-yhkplcrVfOxvuk7IiWzcqn1QlaWM/view?usp=sharing">2020-21 Endterm 7 Marks</a>
+        </Tag>
+        <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
+          <a href="https://drive.google.com/file/d/1HFI8I8kW5ZqAGmSwDG4qJ73E7w4rOdRL/view?usp=sharing">2020-21 Endterm 3 Marks</a>
+        </Tag>
+        
     </Content>
     </Layout>
     </Layout>
