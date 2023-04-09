@@ -46,7 +46,7 @@ const columns = [
       qpaper: 'Computer Programming',
       answers: 'Solution',
       links:'https://drive.google.com/file/d/1KBaoBZ1NAigGHKDv1fX8hRJ1CvLPCYrs/view?usp=share_link',
-      ans:'https://docs.google.com/document/d/14uGI7FNdUcO5P-tjoSS8lSU7QiMkEVgXTK8RH_MplJ0/edit?usp=sharing'
+      ans:'https://docs.google.com/document/d/1cPvOwzh3FQHRPAFpH5cs9WzcXCNAj7iFeyL04Rdvjl8/edit?usp=sharing'
     },
     {
       years: '2021-22',
