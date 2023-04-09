@@ -9,8 +9,8 @@ import {
   FireTwoTone
 } from '@ant-design/icons';
 import { Link} from "react-router-dom";
-import Image1  from './Images/1-SEM.gif'
-import Image2 from './Images/2-SEM.gif'
+import Image1  from './Images/1st sem (2).gif'
+import Image2 from './Images/2ND SEM.gif'
 import Logo from './Images/LOGO2 (2).gif'
 import { Layout, Menu, theme } from 'antd';
 import React, { useState } from 'react';

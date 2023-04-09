@@ -12,6 +12,8 @@ import {
 import { Link} from "react-router-dom";
 import { Layout, Menu, theme } from 'antd';
 import { useState } from 'react';
+import Image1  from './Images/3rd sem.gif'
+import Image2 from './Images/4th sem.gif'
 import Logo from './Images/LOGO2 (2).gif'
 
 const { Header, Sider, Content } = Layout;
@@ -84,13 +86,13 @@ function Second() {
                 <div style={{display:'flex',justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
                   <div className='even' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
                     <Link to='/sem3' style={{}}>
-                        <Card
+                    <Card
                             style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
                             cover={
-                                <img
+                              <img
                               alt="example"
-                              src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                              style={{height:220}}
+                              src={Image1}
+                              style={{height:300}}
                               />
                             }
                             >
@@ -103,15 +105,15 @@ function Second() {
                       </Link>
 
                     <Link to='/sem4' style={{}}>
-                          <Card
-                              style={{ width: 500,backgroundColor:'#030852'}}
-                              cover={
-                                <img
-                                  alt="example"
-                                  src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                                  style={{height:220}}
-                                />
-                              }
+                    <Card
+                            style={{ width: 500,backgroundColor:'#030852', marginRight:50}}
+                            cover={
+                              <img
+                              alt="example"
+                              src={Image2}
+                              style={{height:300}}
+                              />
+                            }
                             >
                                   <Meta
                                   // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
