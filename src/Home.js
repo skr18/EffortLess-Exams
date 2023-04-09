@@ -165,7 +165,7 @@ function Home() {
                     type="success"
                     message={
                     <Marquee speed={100} pauseOnHover gradient={false}>
-                        Chemistry/ Physics, Basic Electrical/ Basic Electronics Answers Are Now Available.
+                        Economics And Basic Mechanical Enginnering Answers Are Now Available.
                     </Marquee>
                     }
                 />
