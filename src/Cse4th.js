@@ -223,7 +223,7 @@ function Cse4th() {
                         </Card>
                     </Link>
 
-                    <Card
+                    {/* <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
                         <img
@@ -237,7 +237,7 @@ function Cse4th() {
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                         title="System Programming"
                         />
-                    </Card>
+                    </Card> */}
                 </div>
                 </div>
 

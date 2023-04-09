@@ -32,13 +32,13 @@ import {
         title: 'Question Paper',
         dataIndex: 'links',
         key: 'Question Paper',
-        render: (data) => <a href={data}>Artificial Intilligence </a>,
+        render: (data) => <a target='_blank' rel="noreferrer" href={data}>Artificial Intilligence </a>,
       },
       {
         title: 'Answers',
         dataIndex: 'ans',
         key: 'Answers',
-        render: (text) => <a href={text}>Solution</a>,
+        render: (text) => <a target='_blank' rel="noreferrer" href={text}>Solution</a>,
       },
     ];
     const data = [
@@ -139,41 +139,41 @@ function Ai() {
         {/* <Table columns={columns} dataSource={data} /> */}
         <Divider orientation="left">Important Notes and Lectures Links</Divider>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1Vng02g6wTk2uA45YRl001cHdeGnuVRWW/view?usp=sharing">AI Midterm</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1Vng02g6wTk2uA45YRl001cHdeGnuVRWW/view?usp=sharing">AI Midterm</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/qul0f79gxGs">BFS Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/qul0f79gxGs">BFS Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/qul0f79gxGs">BFS Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/qul0f79gxGs">BFS Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/f8luGFRtshY">DFS Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/f8luGFRtshY">DFS Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/FbI1lCNNxP8">Uniform Cost Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/FbI1lCNNxP8">Uniform Cost Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/EHwPE5IDXlQ">Iterative Deepening Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/EHwPE5IDXlQ">Iterative Deepening Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/rEema9uQ02c">Bidirectional Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/rEema9uQ02c">Bidirectional Search</a>
         </Tag>
         
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/7ffDUDjwz5E">Best First Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/7ffDUDjwz5E">Best First Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/tvAh0JZF2YE">A* Search</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/tvAh0JZF2YE">A* Search</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/vA1Bz8sII1c">Map Coloring Problem</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/vA1Bz8sII1c">Map Coloring Problem</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/S7L4-KDTvEE">MiniMax Algorithm</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/S7L4-KDTvEE">MiniMax Algorithm</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<GoogleCircleFilled />} color="#6d4d97">
-          <a href="https://www.novelgames.com/en/missionaries/">Missionaries & Cannibals Game</a>
+          <a target='_blank' rel="noreferrer" href="https://www.novelgames.com/en/missionaries/">Missionaries & Cannibals Game</a>
         </Tag>
     </Content>
     </Layout>

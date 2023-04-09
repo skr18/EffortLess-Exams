@@ -31,13 +31,13 @@ import {
         title: 'Question Paper',
         dataIndex: 'links',
         key: 'Question Paper',
-        render: (data) => <a href={data}>DAA</a>,
+        render: (data) => <a target='_blank' rel="noreferrer" href={data}>DAA</a>,
       },
       {
         title: 'Answers',
         dataIndex: 'ans',
         key: 'Answers',
-        render: (text) => <a href={text}>Solution</a>,
+        render: (text) => <a target='_blank' rel="noreferrer" href={text}>Solution</a>,
       },
     ];
     const data = [
@@ -152,43 +152,43 @@ function Daa() {
         {/* <Table columns={columns} dataSource={data} /> */}
         <Divider orientation="left">Important Notes and Lectures Links</Divider>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/FPu9Uld7W-E">Time and Space Complexity</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/FPu9Uld7W-E">Time and Space Complexity</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/A03oI0znAoc">Big Oh-Omega-Theta Part-1</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/A03oI0znAoc">Big Oh-Omega-Theta Part-1</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/Nd0XDY-jVHs">Big Oh-Omega-Theta Part-2</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/Nd0XDY-jVHs">Big Oh-Omega-Theta Part-2</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/IawM82BQ4II">Recurrence Relation Example</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/IawM82BQ4II">Recurrence Relation Example</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/kGcO-nAm9Vc">Masters Theorom Example</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/kGcO-nAm9Vc">Masters Theorom Example</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/mB5HXBb_HY8">Merge Sort</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/mB5HXBb_HY8">Merge Sort</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/7h1s2SojIRw">Quick Sort</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/7h1s2SojIRw">Quick Sort</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/nJ6FdAIr_6g">Heap Sort</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/nJ6FdAIr_6g">Heap Sort</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/prx1psByp7U">Matrix Chain Multiplication</a>
+          <a target='_blank' rel="noreferrer"  href="https://youtu.be/prx1psByp7U">Matrix Chain Multiplication</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/sSno9rV8Rhg">LCS</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/sSno9rV8Rhg">LCS</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/qQ8vS2btsxI">Rabin Karp Algo</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/qQ8vS2btsxI">Rabin Karp Algo</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/19ofLo98_3L2ABZpMTbKjfO5OlRPAUKWL/view?usp=sharing">All Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/19ofLo98_3L2ABZpMTbKjfO5OlRPAUKWL/view?usp=sharing">All Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1ydzEJ2rXuuaiPUQl811IuqHI7j75dpuZ/view?usp=sharing">Rabin-Karp</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1ydzEJ2rXuuaiPUQl811IuqHI7j75dpuZ/view?usp=sharing">Rabin-Karp</a>
         </Tag>
     </Content>
     </Layout>

@@ -31,13 +31,13 @@ import {
         title: 'Question Paper',
         dataIndex: 'links',
         key: 'Question Paper',
-        render: (data) => <a href={data}>Operating System</a>,
+        render: (data) => <a target='_blank' rel="noreferrer" href={data}>Operating System</a>,
       },
       {
         title: 'Answers',
         dataIndex: 'ans',
         key: 'Answers',
-        render: (text) => <a href={text}>Solution</a>,
+        render: (text) => <a target='_blank' rel="noreferrer" href={text}>Solution</a>,
       },
     ];
     const data = [
@@ -130,25 +130,25 @@ function Os() {
         {/* <Table columns={columns} dataSource={data} /> */}
         <Divider orientation="left">Important Notes and Lectures Links</Divider>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1Vng02g6wTk2uA45YRl001cHdeGnuVRWW/view?usp=sharing">Mod-1 All Importants</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1Vng02g6wTk2uA45YRl001cHdeGnuVRWW/view?usp=sharing">Mod-1 All Importants</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/2dJdHMpCLIg">Types of Schedulers</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/2dJdHMpCLIg">Types of Schedulers</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/tWPa-rZiGM8">System Call</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/tWPa-rZiGM8">System Call</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/8duV1LLHHJU">User and Kernel Mode</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/8duV1LLHHJU">User and Kernel Mode</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/dJuYKfR8vec">Inter Process Communication</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/dJuYKfR8vec">Inter Process Communication</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtube.com/playlist?list=PLBlnK6fEyqRitWSE_AyyySWfhRgyA-rHk">IMPORTANT CPU Scheduling Playlist</a>
+          <a target='_blank' rel="noreferrer" href="https://youtube.com/playlist?list=PLBlnK6fEyqRitWSE_AyyySWfhRgyA-rHk">IMPORTANT CPU Scheduling Playlist</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/13KSX-uakq6wb-fKNHHienodGTXUxTpyt/view?usp=sharing">Module 2 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/13KSX-uakq6wb-fKNHHienodGTXUxTpyt/view?usp=sharing">Module 2 Notes</a>
         </Tag>
     </Content>
     </Layout>

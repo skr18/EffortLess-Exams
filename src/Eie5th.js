@@ -146,7 +146,7 @@ function Eie5th() {
                     </Card>
                 </Link>
                     
-                    <Link to='/uhvpe'>
+                    {/* <Link to='/uhvpe'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
@@ -162,11 +162,11 @@ function Eie5th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                     
-                    <Link to='/mc'>
+                    {/* <Link to='/mc'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
@@ -182,9 +182,9 @@ function Eie5th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                     
-                    <Link to='/rs'>
+                    {/* <Link to='/rs'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
@@ -200,11 +200,11 @@ function Eie5th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                 </div>
                 <br />
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
-                    <Link to='/dmdw' style={{}}>
+                    {/* <Link to='/dmdw' style={{}}>
                         <Card
                             style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                             cover={
@@ -220,9 +220,9 @@ function Eie5th() {
                             title="*"
                             />
                         </Card>
-                    </Link>              
+                    </Link>               */}
                   </div>
-                  <h1>Task to ask eee students about pe and oe</h1>
+                  {/* <h1>Task to ask eee students about pe and oe</h1> */}
                 </div>
 
             </Content>

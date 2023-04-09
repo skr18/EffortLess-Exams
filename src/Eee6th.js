@@ -186,7 +186,7 @@ function Eee6th() {
                     </Card>
                     </Link>
                     
-                    <Link to='/cc'>
+                    {/* <Link to='/cc'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
@@ -202,9 +202,9 @@ function Eee6th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                 </div>
-                <h1>Task is to ask ece students about oe and pe</h1>
+                {/* <h1>Task is to ask ece students about oe and pe</h1> */}
                 </div>
 
             </Content>
