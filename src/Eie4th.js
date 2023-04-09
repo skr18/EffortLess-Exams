@@ -110,7 +110,7 @@ function Eie4th() {
 
             <Link to='/bme4'>
                     <Card
-                        style={{ width: 500,backgroundColor:'#030852'}}
+                        style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
                             <img
                             alt="example"
@@ -163,7 +163,7 @@ function Eie4th() {
                     </Card>
                         </Link>
         </div>
-        <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
+         <div className='odd' style={{display:'flex', flexDirection:"row",marginBottom:40}}>
             <Link to='/dig4'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
@@ -182,7 +182,7 @@ function Eie4th() {
                     </Card>
             </Link>
 
-            <Link to='/dig4'>
+            {/* <Link to='/dig4'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
@@ -198,8 +198,8 @@ function Eie4th() {
                         title="elective  "
                         />
                     </Card>
-                    </Link>
-        </div>
+                    </Link> */}
+            </div>
         </div>
 
     </Content>

@@ -146,7 +146,7 @@ function Eie6th() {
                     </Card>
                 </Link>
                     
-                    <Link to='/'>
+                    {/* <Link to='/'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
@@ -162,11 +162,11 @@ function Eie6th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                     
-                    <Link to='/'>
+                    {/* <Link to='/'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
@@ -182,9 +182,9 @@ function Eie6th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                     
-                    <Link to='/'>
+                    {/* <Link to='/'>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
@@ -200,9 +200,9 @@ function Eie6th() {
                         title="*"
                         />
                     </Card>
-                    </Link>
+                    </Link> */}
                 </div>
-                <h1>Task is to ask ece students about oe and pe</h1>
+                {/* <h1>Task is to ask ece students about oe and pe</h1> */}
                 </div>
 
             </Content>
