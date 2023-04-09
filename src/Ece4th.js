@@ -4,9 +4,9 @@ import { Card } from 'antd';
 import {
     MenuFoldOutlined,
     MenuUnfoldOutlined,
-    UploadOutlined,
+    // UploadOutlined,
     UserOutlined,
-    VideoCameraOutlined,
+    // VideoCameraOutlined,
     FireTwoTone
 } from '@ant-design/icons';
 // import { Link} from "react-router-dom";
