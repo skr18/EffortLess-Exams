@@ -200,7 +200,7 @@ function Ece4th() {
                     </Card>
                     </Link>
                 </div>
-                <div className='odd' style={{display:'flex', flexDirection:"row"}}>
+                {/* <div className='odd' style={{display:'flex', flexDirection:"row"}}>
                     <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
@@ -232,7 +232,7 @@ function Ece4th() {
                         title="elective"
                         />
                     </Card>
-                </div>
+                </div> */}
                 </div>
 
             </Content>
