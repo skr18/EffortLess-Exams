@@ -32,13 +32,13 @@ import {
         title: 'Question Paper',
         dataIndex: 'links',
         key: 'Question Paper',
-        render: (data) => <a href={data}>Math 4</a>,
+        render: (data) => <a target='_blank' rel="noreferrer" href={data}>Math 4</a>,
       },
       {
         title: 'Answers',
         dataIndex: 'ans',
         key: 'Answers',
-        render: (text) => <a href={text}>Solution</a>,
+        render: (text) => <a target='_blank' rel="noreferrer" href={text}>Solution</a>,
       },
     ];
     const data = [
@@ -159,31 +159,31 @@ function Math() {
           <a href="">Answers</a>
         </Tag><br /> */}
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1Sq8N4A03sfry_dholqGFSruJ3_mFjifD/view?usp=sharing">Module 1 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1Sq8N4A03sfry_dholqGFSruJ3_mFjifD/view?usp=sharing">Module 1 Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/18Jd8QXQQZ50Ql38yp4qE0lQmqUJ61uQv/view?usp=sharing">Module 2 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/18Jd8QXQQZ50Ql38yp4qE0lQmqUJ61uQv/view?usp=sharing">Module 2 Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1rUsYBS4uUh8ubdf5pUmfFGjiVWQoajKW/view?usp=sharing">Module 3 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1rUsYBS4uUh8ubdf5pUmfFGjiVWQoajKW/view?usp=sharing">Module 3 Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1dhDLCXUVWZQ0BcbPx8uolQ3WMsp5Rh9I/view?usp=sharing">Module 4 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1dhDLCXUVWZQ0BcbPx8uolQ3WMsp5Rh9I/view?usp=sharing">Module 4 Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/11BubATUv-kYi_OIGrva60w9sWEO8xJM0/view?usp=sharing">Module 5 Part-1 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/11BubATUv-kYi_OIGrva60w9sWEO8xJM0/view?usp=sharing">Module 5 Part-1 Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1ySnUI_nXHNAKf8AKsxnnL-ZdieVNJnuH/view?usp=share_link">Module 5 Part-2 Notes</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1ySnUI_nXHNAKf8AKsxnnL-ZdieVNJnuH/view?usp=share_link">Module 5 Part-2 Notes</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1CY-lhh4QSBcbQFKr-hkkMUc2hBWm9IFF/view?usp=share_link">Module 3,4 and 5 Combined</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1CY-lhh4QSBcbQFKr-hkkMUc2hBWm9IFF/view?usp=share_link">Module 3,4 and 5 Combined</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1lxX-yhkplcrVfOxvuk7IiWzcqn1QlaWM/view?usp=sharing">2020-21 Endterm 7 Marks</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1lxX-yhkplcrVfOxvuk7IiWzcqn1QlaWM/view?usp=sharing">2020-21 Endterm 7 Marks</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1HFI8I8kW5ZqAGmSwDG4qJ73E7w4rOdRL/view?usp=sharing">2020-21 Endterm 3 Marks</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1HFI8I8kW5ZqAGmSwDG4qJ73E7w4rOdRL/view?usp=sharing">2020-21 Endterm 3 Marks</a>
         </Tag>
         
     </Content>

@@ -31,13 +31,13 @@ import {
         title: 'Question Paper',
         dataIndex: 'links',
         key: 'Question Paper',
-        render: (data) => <a href={data}>DBMS</a>,
+        render: (data) => <a target='_blank' rel="noreferrer" href={data}>DBMS</a>,
       },
       {
         title: 'Answers',
         dataIndex: 'ans',
         key: 'Answers',
-        render: (text) => <a href={text}>Solution</a>,
+        render: (text) => <a target='_blank' rel="noreferrer" href={text}>Solution</a>,
       },
     ];
     const data = [
@@ -151,43 +151,43 @@ function Dbms() {
         {/* <Table columns={columns} dataSource={data} /> */}
         <Divider orientation="left">Important Notes and Lectures Links</Divider>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/5fs1ldO6B5c">3-tier Architecture</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/5fs1ldO6B5c">3-tier Architecture</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/wOD02sezmX8">Basic ER</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/wOD02sezmX8">Basic ER</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/n3mHfQft5P8">Concept of ER</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/n3mHfQft5P8">Concept of ER</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/l9BRmq7pgZ8">Example of ER-1</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/l9BRmq7pgZ8">Example of ER-1</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/BexmtjyRp6I">Example of ER-2</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/BexmtjyRp6I">Example of ER-2</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/7LRH7DY1QbQ">Mapping ER to Relational</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/7LRH7DY1QbQ">Mapping ER to Relational</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/76v3gRns28U">Relational Algebra</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/76v3gRns28U">Relational Algebra</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/SnsrohgiPo0">Tuple Calculus</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/SnsrohgiPo0">Tuple Calculus</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/wtAuIBxd3Bw">Domain Calculus</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/wtAuIBxd3Bw">Domain Calculus</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/LsRagOpaXEg">Joins in SQL</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/LsRagOpaXEg">Joins in SQL</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<YoutubeOutlined />} color="#cd201f">
-          <a href="https://youtu.be/LJngZH1eeOU">Query Optimization</a>
+          <a target='_blank' rel="noreferrer" href="https://youtu.be/LJngZH1eeOU">Query Optimization</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1iX-Z9-SsQIrwb8ogJyiGlwA80qxgH6iH/view?usp=sharing">DBMS Mod-1 and Mod-2</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1iX-Z9-SsQIrwb8ogJyiGlwA80qxgH6iH/view?usp=sharing">DBMS Mod-1 and Mod-2</a>
         </Tag>
         <Tag style={{marginBottom:'3px'}} icon={<FilePdfFilled />} color="#4791c9">
-          <a href="https://drive.google.com/file/d/1v66bg5opM6ZMyQjwMVTE4vZNyzyTHR4-/view?usp=sharing">DBMS Handwritten Mod-1 and Mod-2</a>
+          <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1v66bg5opM6ZMyQjwMVTE4vZNyzyTHR4-/view?usp=sharing">DBMS Handwritten Mod-1 and Mod-2</a>
         </Tag>
     </Content>
     </Layout>
