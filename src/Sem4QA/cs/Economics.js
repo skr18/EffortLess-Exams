@@ -47,14 +47,14 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1NqJAiW_8wYcBD-yHLxuhE9yZWs72Av3T/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1gfqnChBueaPeF8ha_35fMAS5BPxjHmJF4lxF3BM_r6A/edit?usp=sharing'
       },
       {
         years: '2020-21 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1ikwvQQcydWAPec-xvY9e9JwQgAt_La-m/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1EyHWLhPyd1Ifr8aQCiq9ExqIh2zQD1TLTFBqdqfHoys/edit?usp=sharing'
       },
       {
         years: '2021-22 Mid-Term',
@@ -63,27 +63,27 @@ import {
         links:'https://drive.google.com/file/d/14Gi3JkD_TGF0C-eSU7tgs636asmYYpXm/view?usp=share_link',
         ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
       },
-      {
-        years: '2019-20 End-Term',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1A9dbyUq3RWWiz0Xn5YhN24TM3UPmgfQu/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
-      },
-      {
-        years: '2020-21 End-Term',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1Cw7R4vSVGSn8C0DLTgK-VdzLcfd9xhvZ/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
-      },
-      {
-        years: '2021-22 End-Term',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1DkhcjQCB2j382d77_61DKZnHWD_OGtfC/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
-      },
+      // {
+      //   years: '2019-20 End-Term',
+      //   qpaper: 'Computer Programming',
+      //   answers: 'Solution',
+      //   links:'https://drive.google.com/file/d/1A9dbyUq3RWWiz0Xn5YhN24TM3UPmgfQu/view?usp=share_link',
+      //   ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+      // },
+      // {
+      //   years: '2020-21 End-Term',
+      //   qpaper: 'Computer Programming',
+      //   answers: 'Solution',
+      //   links:'https://drive.google.com/file/d/1Cw7R4vSVGSn8C0DLTgK-VdzLcfd9xhvZ/view?usp=share_link',
+      //   ans:'https://docs.google.com/document/d/1EyHWLhPyd1Ifr8aQCiq9ExqIh2zQD1TLTFBqdqfHoys/edit?usp=sharing'
+      // },
+      // {
+      //   years: '2021-22 End-Term',
+      //   qpaper: 'Computer Programming',
+      //   answers: 'Solution',
+      //   links:'https://drive.google.com/file/d/1DkhcjQCB2j382d77_61DKZnHWD_OGtfC/view?usp=share_link',
+      //   ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+      // },
     ];
 
 function Economics() {
