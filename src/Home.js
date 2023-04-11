@@ -165,7 +165,7 @@ function Home() {
                     type="success"
                     message={
                     <Marquee speed={100} pauseOnHover gradient={false}>
-                        Economics And Basic Mechanical Enginnering Answers Are Now Available.
+                        Daa/MI/control System Answers Are Now Available.
                     </Marquee>
                     }
                 />
