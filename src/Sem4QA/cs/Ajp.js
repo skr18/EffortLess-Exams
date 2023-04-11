@@ -51,14 +51,14 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1C4eQRY1013bbBz56tY9Jpz7VSmdUYOb8/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1pGpTDdSZVSJG7Kfm13LguHUR1y2_t3bGvJqPAbKh_DM/edit?usp=sharing'
       },
       {
         years: '2022-23 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1sgtlZXClaa4G9659YhPhv1evBKoMaGul/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1xKv6iFc-PlECh2DbQmqCZOM1-tvWbkh7oM1RVbRJc0g/edit?usp=sharing'
       },
       
       {

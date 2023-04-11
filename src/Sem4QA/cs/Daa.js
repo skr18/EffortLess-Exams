@@ -46,21 +46,21 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1U6EoPsXggUMNB9QMHE-wnHESxfEUdOwo/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1iykIIPFpYViF94oUCH2oS0DKBqx_sZeqs0Z3V9QUU_A/edit?usp=sharing'
       },
       {
         years: '2020-21 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1gd3ga9ak-QUrJPrLSlJs7W9_v11VY0N0/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1KUzhp0OzUA-Ym8Gor55FFQ5C3mCC0BAT95I4oxj7gXw/edit?usp=sharing'
       },
       {
         years: '2021-22 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1Q1rDtkcLZRAhgDOeylpzNQ4Sq4yxaY4_/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1MWStlSSxzOIaNHqATCNWaqGPlABH-WH1IKQTjc6pLBo/edit?usp=sharing'
       },
       {
         years: '2019-20 End-Term',
