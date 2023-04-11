@@ -47,14 +47,14 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1MC-H9US4SeuTRroH9AypncKEVyFk4dXv/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1KPUInMIL_mdz2312zwBmpoyn0bsvDquV0TAKJDgJ7io/edit?usp=sharing'
       },
       {
         years: '2021-22 Mid-Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1t_7VRCf5uQG1Hqpg2r0eUO4_0JKkygdL/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1wiseIYZ2S1dTi8DanB4qRzmRT_n8iKilQN47CrE3WwM/edit?usp=sharing'
       },
       {
         years: '2020-21 End-Term',
