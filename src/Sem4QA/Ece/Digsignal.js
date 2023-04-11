@@ -43,15 +43,22 @@ import {
         years: '2020-21',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1f7ptQ9plihYae5ZGnfPXtYPQ3Unmuw2M/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1M5kxwLvkjhidcqMgHfwrAXyuhKkCuRfo/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/19bT10mdZKy36kauZaReo2zJENGRYt8O9tQg_wtNknWA/edit?usp=sharing'
+      },
+      {
+        years: '2021-22 Repeat',
+        qpaper: 'Computer Programming',
+        answers: 'Solution',
+        links:'https://drive.google.com/file/d/1WayWc3tt_MuCrdJkjzfkXTE38ZrqhtcT/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/1ElwY28BR--HsBRsNCFyzBvEJFZOTZ7r1htFD7jIkqIc/edit?usp=sharing'
       },
       {
         years: '2021-22',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1dY9_-V7LolcTOySU9Acqrn_3wWgAvoK2/view?usp=sharing',
-        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+        links:'https://drive.google.com/file/d/1ycCVPMxarY-V-rvZjtm0AZfg0oQ4oN-U/view?usp=sharing',
+        ans:'https://docs.google.com/document/d/17hRZVrd4jg1cVWn4pUd6Vx43BJyyDs4FKL8FUPhaSBI/edit?usp=sharing'
       }
     ];
 function Digsignal() {

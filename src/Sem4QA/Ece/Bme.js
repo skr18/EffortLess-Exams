@@ -53,14 +53,14 @@ const columns = [
       qpaper: 'Computer Programming',
       answers: 'Solution',
       links:'https://drive.google.com/file/d/1tagsAtyGdw1cFqhsB_1RRIUcD8cNVlBv/view?usp=share_link',
-      ans:'https://docs.google.com/document/d/14uGI7FNdUcO5P-tjoSS8lSU7QiMkEVgXTK8RH_MplJ0/edit?usp=sharing'
+      ans:'https://docs.google.com/document/d/13oBRUGEWW8_tC30pi-rYLRbrvvwEaCKjnBt0wHX9lfI/edit?usp=sharing'
     },
     {
       years: '2022-23',
       qpaper: 'Computer Programming',
       answers: 'Solution',
       links:'https://drive.google.com/file/d/1J8Z5V_JLJDBeQG28MAFFiIOiVq51Pjd_/view?usp=share_link',
-      ans:'https://docs.google.com/document/d/14uGI7FNdUcO5P-tjoSS8lSU7QiMkEVgXTK8RH_MplJ0/edit?usp=sharing'
+      ans:'https://docs.google.com/document/d/1jraz_VQdpA_7hy7SRLO2kGmTuGw_ilYpn0zixDZQPm4/edit?usp=sharing'
     },
   ];
 

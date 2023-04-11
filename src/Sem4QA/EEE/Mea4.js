@@ -46,13 +46,13 @@ import {
         links:'https://drive.google.com/file/d/1M5XZOA1z6srKgg6h_UUpd-2U9ZrYGyX0/view?usp=share_link',
         ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
       },
-      {
-        years: '2019-20 Mid Term',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1Melc4lIaknXk_InS-3fuBT7oDXmu8LA5/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
-      },
+      // {
+      //   years: '2019-20 Mid Term',
+      //   qpaper: 'Computer Programming',
+      //   answers: 'Solution',
+      //   links:'https://drive.google.com/file/d/1Melc4lIaknXk_InS-3fuBT7oDXmu8LA5/view?usp=share_link',
+      //   ans:'https://docs.google.com/document/d/1gXpc8-oe_kRj-_h25Qbf7KxcDWxhxF8IcOqnAS0uEV4/edit?usp=sharing'
+      // },
       {
         years: '2020-21 End Term',
         qpaper: 'Computer Programming',
@@ -65,7 +65,7 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1iaWNU4reblQskfCtwZ00kB-rJzYMe97k/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/181KKRZmc5O50C8PebEVfsZA97J_ksLX8qmm5ZSpSFX4/edit?usp=sharing'
       },
     ];
 function Mea4() {
