@@ -63,7 +63,7 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1H60F2k6DWWjQlx0fReqxRHII9TFrlaq8/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/19DLJTHNAK41XCaUyI3V0Yqdk78T0Hyst6zbX4AZDIh4/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/10_ZUllUXIXgAm5zqKcJ2Mk6ke-M1fUsv5pKGmp7sbPU/edit?usp=sharing'
       },
       {
         years: '2019-20 End-Term',
