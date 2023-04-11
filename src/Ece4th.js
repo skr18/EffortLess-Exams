@@ -200,8 +200,8 @@ function Ece4th() {
                     </Card>
                     </Link>
                 </div>
-                {/* <div className='odd' style={{display:'flex', flexDirection:"row"}}>
-                    <Card
+                <div className='odd' style={{display:'flex', flexDirection:"row"}}>
+                    {/* <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
                         <img
@@ -213,11 +213,11 @@ function Ece4th() {
                     >
                         <Meta
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
-                        title=" elective "
+                        title="Programming in Python"
                         />
-                    </Card>
+                    </Card> */}
 
-                    <Card
+                    {/* <Card
                         style={{ width: 500,backgroundColor:'#030852'}}
                         cover={
                         <img
@@ -231,8 +231,8 @@ function Ece4th() {
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                         title="elective"
                         />
-                    </Card>
-                </div> */}
+                    </Card> */}
+                </div>
                 </div>
 
             </Content>
