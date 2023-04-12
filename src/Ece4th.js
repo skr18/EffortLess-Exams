@@ -201,7 +201,8 @@ function Ece4th() {
                     </Link>
                 </div>
                 <div className='odd' style={{display:'flex', flexDirection:"row"}}>
-                    {/* <Card
+                <Link to='/py'>
+                    <Card
                         style={{ width: 500,backgroundColor:'#030852',marginRight:50}}
                         cover={
                         <img
@@ -215,7 +216,8 @@ function Ece4th() {
                         // avatar={<Avatar src="https://joesch.moe/api/v1/random" />}
                         title="Programming in Python"
                         />
-                    </Card> */}
+                    </Card>
+                    </Link> 
 
                     {/* <Card
                         style={{ width: 500,backgroundColor:'#030852'}}

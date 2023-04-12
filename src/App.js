@@ -65,6 +65,7 @@ import Consys from './Sem4QA/Ece/Consys'
 import Digsignal from './Sem4QA/Ece/Digsignal'
 import Math4ece from './Sem4QA/Ece/Math4'
 import Uhvp from './Sem4QA/Ece/Uhvp'
+import Py from './Sem4QA/Ece/Py'
 
 import Eee4th from './Eee4th';
 import Digcir4 from './Sem4QA/EEE/Digcir4';
@@ -187,6 +188,7 @@ function App() {
               <Route path="/ana4" element={<Analog4/>} />
               <Route path="/bme4" element={<Bme4/>} />
               <Route path="/con4" element={<Consys/>} />
+              <Route path='/py' element={<Py />} />
   
 
           <Route path="/eee4th" element={<Eee4th/>} />
