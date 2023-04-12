@@ -44,7 +44,7 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1SidupUW-uhUSI5y6W-C4exH64c9Xwb97/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/11prW_ggwW-Bed-1KKnBwUK_FlU5BwiqsrsThVTWMH4E/edit?usp=share_link'
       },
       {
         years: '2021-22 End Term',

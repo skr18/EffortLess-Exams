@@ -20,6 +20,7 @@ import DSPimage from './Images/DIGITAL SIGNAL PROCESSING.png'
 import ACimage from './Images/Analog communication.png'
 import CSEimage from './Images/CONTROL SYSTEM ENGINNERING.png'
 import UHVPEimage from './Images/UHVPE.png'
+import PIPimage from './Images/Progamming in Python.gif'
 
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
@@ -207,7 +208,7 @@ function Ece4th() {
                         cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src={PIPimage}
                             style={{height:220}}
                         />
                         }

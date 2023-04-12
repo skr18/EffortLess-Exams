@@ -44,7 +44,7 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1cNsKPVyXaZrJf59HYV49Vuu2cKluOm37/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1gDC97o0yaKXQxVetjDGcxhJJfl4isHuqRpJKcG1bVjw/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1gDC97o0yaKXQxVetjDGcxhJJfl4isHuqRpJKcG1bVjw/edit?usp=share_link'
       },
       {
         years: '2019-20 End Term',
@@ -58,7 +58,7 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1mNu7Exwqt6KYUQLtWHqIZa_VsipbTxBt/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1FxnkaflfrF1ckVIcKA3GqZsJjC1XQIEL0o_vrGAe8nI/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1FxnkaflfrF1ckVIcKA3GqZsJjC1XQIEL0o_vrGAe8nI/edit?usp=share_link'
       },
       {
         years: '2020-21 End Term',
@@ -72,7 +72,7 @@ import {
         qpaper: 'Computer Programming',
         answers: 'Solution',
         links:'https://drive.google.com/file/d/1PE-UvuIGwYgZhunemKb93TXsPyAExVBX/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1j3H0Q1d96CugOc9nj2WA_OcGS9J2pTxqWYUgx7B99XU/edit?usp=sharing'
+        ans:'https://docs.google.com/document/d/1j3H0Q1d96CugOc9nj2WA_OcGS9J2pTxqWYUgx7B99XU/edit?usp=share_link'
       },
       {
         years: '2021-22 End Term',
