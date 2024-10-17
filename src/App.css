@@ -1,1 +1,9 @@
 
+.display{
+    width: 2px;
+    height: 2px;
+    top: cx;
+    left: cy;
+    border-radius: 50%;
+    background-color: red;
+}

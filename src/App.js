@@ -1,4 +1,5 @@
-import React  from 'react';
+import React, { useState }  from 'react';
+import './App.css'
 import Home from './Home';
 import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
@@ -118,10 +119,67 @@ import Iot from './Sem6QA/Ece/Iot'
 import Eee6th from './Eee6th';
 import Eie6th from './Eie6th';
 
-import Tra4 from './Sem4QA/Eie/Tra4';
+// import Tra4 from './Sem4QA/Eie/Tra4';
 function App() {
+  // const [curr,setcurr] = useState(10)
+  // const [prev,setprev] = useState()
+  // function increment(){
+  //   setprev(curr)
+  //   setcurr(curr+1)
+  // }
 
+  const [counter,setcounter] = useState(0)
+
+  // const show =(event)=>{
+  //   // console.log(point.width)
+
+  //   let cx = console.log(event.clientX)
+  //   let cy = console.log(event.clientY)
+
+  //   setx(cx)
+  //   sety(cy)
+    
+  //   // return <div style={{top:cx,left:cy,backgroundColor:'red',width:'2px',height:'2px',ba}}></div>
+  // }
+
+
+  // var cnt=0
+  // const timer =()=>{
+  //   cnt=0
+  //   var time =setInterval(() => {
+  //     setcounter(cnt++)
+  //   }, 1000);
+  // }
+  // const start = ()=>{
+  //   timer()
+  // }
+  // const stop=()=>{
+
+  //   clearInterval(timer)
+  //   setcounter(0)
+  //   cnt=0
+  // }
   return (
+    // <div style={{margin:20}}>
+    //   <h1>prev value = {prev} </h1>
+    //   <h1>Current value = {curr}</h1>
+    //   <button onClick={increment}>Increment</button>
+    // </div>
+
+    // <button style={{backgroundColor:'black',height:'100vh',width:'100vw'}} onClick={show}>
+    //   <div style={{width:'2px',height:'2px',top:x,left:y,backgroundColor:'red',borderRadius:'50px'}}>
+
+    //   </div>
+    // </button>
+    
+    // <div style={{margin:15,padding:20}}>
+    //   `The Timer : {counter}`
+    //   <button style={{margin:15}} onClick={start}> Start</button>
+    //   <button onClick={stop}>Stop</button>
+    // </div>
+
+
+
     <Router>
       {/* <Home /> */}
       <Routes>
@@ -198,7 +256,7 @@ function App() {
               <Route path="/mach4" element={<Mech4/>} />
 
           <Route path="/eie4th" element={<Eie4th/>} />
-            <Route path="/tra4" element={<Tra4/>} />
+            {/* <Route path="/tra4" element={<Tra4/>} /> */}
       
       <Route path="/third" element={<Third/>} />
           <Route path="/sem5" element={<Sem5/>} />

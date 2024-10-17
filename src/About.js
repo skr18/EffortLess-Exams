@@ -16,17 +16,20 @@ import { Avatar, Space } from 'antd';
 import {  Typography } from 'antd';
 import { Collapse } from 'antd';
 import Logo from './Images/LOGO2 (2).gif'
+import url from "../src/MembersImage/akash.jpeg"
+import url2 from "../src/MembersImage/sujeet.heic"
+import url3 from "../src/MembersImage/wasif.jpeg"
+import url4 from "../src/MembersImage/shovik.jpeg"
 const { Panel } = Collapse;
 const { Header, Sider, Content } = Layout;
 const { Meta } = Card;
 const { Paragraph } = Typography;
-
 const { Text, Title } = Typography;
 
- const url = 'https://media.licdn.com/dms/image/D5603AQEda13L8rHUUw/profile-displayphoto-shrink_400_400/0/1678538748915?e=1683763200&v=beta&t=yGNF6Beuk9fYLx7Np3bCObGMagcPkQxllZMur4EE5lQ'
- const url2 = 'https://media.licdn.com/dms/image/D4D03AQF7v6hytlynvw/profile-displayphoto-shrink_800_800/0/1672839595936?e=1683763200&v=beta&t=7ROyShm5WopS_uDUziUCDQC26nb4odQ082GNDCNyL60'
- const url3='https://media.licdn.com/dms/image/D4D03AQGpqX2BRbFxHg/profile-displayphoto-shrink_400_400/0/1678538293710?e=1683763200&v=beta&t=BjbpUvAQPC19rCmMN_r6dRTh7t4I1CwzYXNiYigOR9M'
- const url4='https://media.licdn.com/dms/image/D4D03AQGUwP66rv2dcA/profile-displayphoto-shrink_400_400/0/1679239071807?e=1684972800&v=beta&t=yC4whBpbLOLy9lypxGGZE8FWjJHpTpPSGJQ8y3dkB2M'
+ //const url = 
+ //const url2 = 'https://media.licdn.com/dms/image/D4D03AQF7v6hytlynvw/profile-displayphoto-shrink_800_800/0/1672839595936?e=1683763200&v=beta&t=7ROyShm5WopS_uDUziUCDQC26nb4odQ082GNDCNyL60'
+ //const url3='https://media.licdn.com/dms/image/D4D03AQGpqX2BRbFxHg/profile-displayphoto-shrink_400_400/0/1678538293710?e=1683763200&v=beta&t=BjbpUvAQPC19rCmMN_r6dRTh7t4I1CwzYXNiYigOR9M'
+ //const url4='https://media.licdn.com/dms/image/D4D03AQGUwP66rv2dcA/profile-displayphoto-shrink_400_400/0/1679239071807?e=1684972800&v=beta&t=yC4whBpbLOLy9lypxGGZE8FWjJHpTpPSGJQ8y3dkB2M'
 function About() {
     
     const [collapsed, setCollapsed] = useState(false);
