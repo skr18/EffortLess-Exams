@@ -39,26 +39,12 @@ import {
       },
     ];
     const data = [
-      {
-        years: '2019-20 Mid Term',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1CtlWTSP1p6Bjj7pmcepl1gFoM5d2IBfn/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/18j5k3Ck1gTzo3HyOIij6aMBbdhA8aYm0FwK32oZN-4A/edit?usp=sharing'
-      },
-      {
-        years: '2019-20 End Term',
-        qpaper: 'Computer Programming',
-        answers: 'Solution',
-        links:'https://drive.google.com/file/d/1vnEhb6nYHaDq4rEw-ZONIW7jvuWpOyF5/view?usp=share_link',
-        ans:'https://docs.google.com/document/d/1wak34BANuQUYD-cENqzX8_hN1kehbs2rmEO5IM5j5Fs/edit?usp=sharing'
-      },
 
       {
         years: '2020-21 Mid Term',
         qpaper: 'Computer Programming',
         answers: 'Solution',
-        links:'https://drive.google.com/file/d/1fljKQQi_3J4q9jBEQD56IbzH1pe2GK6F/view?usp=share_link',
+        links:'https://drive.google.com/file/d/16SNJVCtYEblxqpXGdPa-Vi3Eyp53E1Kn/view?usp=sharing',
         ans:'https://docs.google.com/document/d/1wWdyxVgsokQAVS6b2QZoPKyDZfYk1vIxPdJQ8mF_ErE/edit?usp=sharing'
       },
       {
